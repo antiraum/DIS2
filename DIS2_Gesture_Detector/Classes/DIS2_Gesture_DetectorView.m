@@ -54,7 +54,7 @@
     firstTouch = [touch locationInView:self];
     firstTouchTime = [NSDate timeIntervalSinceReferenceDate];
 	numTaps = [touch tapCount];
-    [self setNeedsDisplay];
+	[self setNeedsDisplay];
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -93,8 +93,9 @@
 	}
 	
 	// detect single tap
-	if (distanceBetweenPoints(firstTouch, endPoint) < kMinimumMovementDistanceVariance) {
-        label.text = @"Single tap detected";
+	if (distanceBetweenPoints(firstTouch, endPoint) < kMinimumMovementDistanceVariance && [points count] <= kTapMaximumPoints) {
+		
+        label.text = [NSString stringWithFormat:@"Single tap detected, points count %d", [points count]];
         [self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
 		[points removeAllObjects];
 		firstTouch = CGPointZero;
@@ -201,6 +202,7 @@
     CGFloat minRadius = radius - (radius * kRadiusVariancePercent);
     CGFloat maxRadius = radius + (radius * kRadiusVariancePercent);
     index = 0;
+	label.text = @"Angles";
     for (NSString *onePointString in points) {
         CGPoint onePoint = CGPointFromString(onePointString);
         CGFloat distanceFromRadius = fabsf(distanceBetweenPoints(center, onePoint));
@@ -213,6 +215,7 @@
         }
         
         CGFloat pointAngle = angleBetweenLines(firstTouch, center, onePoint, center);
+		// label.text = [label.text stringByAppendingString:[NSString stringWithFormat:@ " %.0f", currentAngle]];
         
         if ((pointAngle > currentAngle && hasSwitched) && (index < [points count] - kOverlapTolerance)) {
             label.text = [NSString stringWithFormat:@"Sequence of angles is wrong for circle!", fabs(currentAngle)];
@@ -230,7 +233,14 @@
 		index++;
     }
     
-    label.text = @"Circle detected!";
+	CGFloat ccw = counterClockWise(firstTouch, center, CGPointFromString([points objectAtIndex:1]));
+	if (ccw < 0) {
+		label.text = @"Clockwise circle detected!";
+	} else if (ccw > 0) {
+		label.text = @"Counterclockwise circle detected!";
+	} else {
+		label.text = @"LinearCircleException";
+	}
     [self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
     [points removeAllObjects];
     firstTouch = CGPointZero;    

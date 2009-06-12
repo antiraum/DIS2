@@ -23,7 +23,17 @@ CGFloat angleBetweenLines(CGPoint line1Start, CGPoint line1End, CGPoint line2Sta
 	CGFloat d = line2End.y - line2Start.y;
 	
 	CGFloat rads = acos(((a*c) + (b*d)) / ((sqrt(a*a + b*b)) * (sqrt(c*c + d*d))));
-	
-	return radiansToDegrees(rads);
-	
+
+	return rads;
+//	return radiansToDegrees(rads);
+}
+
+/**
+ # Three points are a counter-clockwise turn if ccw > 0, clockwise if
+ # ccw < 0, and collinear if ccw = 0 because ccw is a determinant that
+ # gives the signed area of the triangle formed by p1, p2, and p3.
+ * @source http://en.wikipedia.org/wiki/Graham_scan
+ **/
+CGFloat counterClockWise(CGPoint p1, CGPoint p2, CGPoint p3) {
+	return (p2.x - p1.x)*(p3.y - p1.y) - (p2.y - p1.y)*(p3.x - p1.x);
 }
