@@ -233,10 +233,10 @@
 		index++;
     }
     
-	CGFloat ccw = counterClockWise(firstTouch, center, CGPointFromString([points objectAtIndex:1]));
-	if (ccw < 0) {
+	CGFloat ccw = counterClockWise(firstTouch, CGPointFromString([points objectAtIndex:[points count]/3]), CGPointFromString([points objectAtIndex:[points count]*2/3]));
+	if (ccw > 0) {
 		label.text = @"Clockwise circle detected!";
-	} else if (ccw > 0) {
+	} else if (ccw < 0) {
 		label.text = @"Counterclockwise circle detected!";
 	} else {
 		label.text = @"LinearCircleException";
