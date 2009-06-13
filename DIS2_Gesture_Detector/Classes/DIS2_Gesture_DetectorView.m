@@ -95,7 +95,8 @@
 	// detect single tap
 	if (distanceBetweenPoints(firstTouch, endPoint) < kMinimumMovementDistanceVariance && [points count] <= kTapMaximumPoints) {
 		
-        label.text = [NSString stringWithFormat:@"Single tap detected, points count %d", [points count]];
+        label.text = @"Single tap detected";
+//        label.text = [NSString stringWithFormat:@"Single tap detected, points count %d", [points count]];
         [self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
 		[points removeAllObjects];
 		firstTouch = CGPointZero;

@@ -322,7 +322,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E2294F660FE25B2500E7C968</string>
+										<string>E2DEDAE70FE38FC70061B2A3</string>
 										<key>history</key>
 										<array>
 											<string>E2D1962F0FE22ADF004257E4</string>
@@ -335,7 +335,7 @@
 											<string>E2294F280FE22D9400E7C968</string>
 											<string>E2294F460FE233C200E7C968</string>
 											<string>E2294F610FE25AFE00E7C968</string>
-											<string>E2294F620FE25AFE00E7C968</string>
+											<string>E2294F660FE25B2500E7C968</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -350,20 +350,6 @@
 											<string>E2D196470FE22ADF004257E4</string>
 											<string>E2D1965B0FE22ADF004257E4</string>
 											<string>E2D196600FE22ADF004257E4</string>
-											<string>E2294F290FE22D9400E7C968</string>
-											<string>E2294F2E0FE22FF200E7C968</string>
-											<string>E2294F340FE2309F00E7C968</string>
-											<string>E2294F380FE2324C00E7C968</string>
-											<string>E2294F390FE2324C00E7C968</string>
-											<string>E2294F3E0FE2332D00E7C968</string>
-											<string>E2294F3F0FE2332D00E7C968</string>
-											<string>E2294F420FE2335700E7C968</string>
-											<string>E2294F470FE233C200E7C968</string>
-											<string>E2294F480FE233C200E7C968</string>
-											<string>E2294F5B0FE2388900E7C968</string>
-											<string>E2294F5C0FE2388900E7C968</string>
-											<string>E2294F630FE25AFE00E7C968</string>
-											<string>E2294F640FE25AFE00E7C968</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -421,9 +407,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E2294F150FE22C1B00E7C968</string>
+				<string>E2DEDAD80FE25CAE0061B2A3</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>E2294F160FE22C1B00E7C968</string>
+				<string>E2DEDAD90FE25CAE0061B2A3</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -557,13 +543,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>E2294F4D0FE2343100E7C968</string>
-		<string>E2294F4E0FE2343100E7C968</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E2D196660FE22ADF004257E4</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>/Users/tom/Downloads/DIS2_Gesture_Detector/DIS2_Gesture_Detector.xcodeproj</string>
+		<string>1CD10A99069EF8BA00B06720</string>
+		<string>/Users/tom/Documents/Master/DIS 2/Assignments/DIS2/DIS2_Gesture_Detector/DIS2_Gesture_Detector.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>394 65 1006 734 0 0 1440 878 </string>
@@ -643,7 +626,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>E2D196660FE22ADF004257E4</string>
-				<string>E2294F170FE22C1B00E7C968</string>
+				<string>E2DEDAE20FE38F630061B2A3</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -685,8 +668,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 194}}</string>
-											<string>{{316, 0}, {378, 194}}</string>
+											<string>{{0, 0}, {316, 198}}</string>
+											<string>{{316, 0}, {378, 198}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -701,8 +684,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 194}}</string>
-											<string>{{0, 194}, {694, 187}}</string>
+											<string>{{0, 0}, {694, 198}}</string>
+											<string>{{0, 198}, {694, 183}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -735,7 +718,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 194}}</string>
+									<string>{{316, 0}, {378, 198}}</string>
 									<key>RubberWindowFrame</key>
 									<string>42 171 694 422 0 0 1440 878 </string>
 								</dict>
@@ -763,13 +746,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>E2294F180FE22C1B00E7C968</string>
+				<string>E2DEDADA0FE25CAE0061B2A3</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>E2294F190FE22C1B00E7C968</string>
-				<string>E2294F1A0FE22C1B00E7C968</string>
-				<string>E2294F1B0FE22C1B00E7C968</string>
-				<string>E2294F1C0FE22C1B00E7C968</string>
-				<string>E2294F1D0FE22C1B00E7C968</string>
+				<string>E2DEDADB0FE25CAE0061B2A3</string>
+				<string>E2DEDADC0FE25CAE0061B2A3</string>
+				<string>E2DEDADD0FE25CAE0061B2A3</string>
+				<string>E2DEDADE0FE25CAE0061B2A3</string>
+				<string>E2DEDADF0FE25CAE0061B2A3</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -923,7 +906,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>E2294F1E0FE22C1B00E7C968</string>
+				<string>E2DEDAE30FE38F630061B2A3</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
