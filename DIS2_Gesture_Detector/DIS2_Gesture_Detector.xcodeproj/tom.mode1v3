@@ -322,7 +322,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E2DEDAD70FE25CAE0061B2A3</string>
+										<string>E2DEDAE70FE38FC70061B2A3</string>
 										<key>history</key>
 										<array>
 											<string>E2D1962F0FE22ADF004257E4</string>
@@ -543,6 +543,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>E2D196660FE22ADF004257E4</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Users/tom/Documents/Master/DIS 2/Assignments/DIS2/DIS2_Gesture_Detector/DIS2_Gesture_Detector.xcodeproj</string>
 	</array>
@@ -624,7 +626,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>E2D196660FE22ADF004257E4</string>
-				<string>E2294F170FE22C1B00E7C968</string>
+				<string>E2DEDAE20FE38F630061B2A3</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -904,7 +906,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>E2294F1E0FE22C1B00E7C968</string>
+				<string>E2DEDAE30FE38F630061B2A3</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
