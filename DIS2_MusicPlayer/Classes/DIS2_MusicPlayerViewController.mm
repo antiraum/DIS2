@@ -46,7 +46,7 @@
 		}
 	}
 	songCount = [music count];
-
+	volume = 1.0;
 	paused = NO;
 	stopped = YES;
 	printf("Loaded %d songs\n",songCount);
@@ -152,6 +152,8 @@
 	//player = new AQPlayer();
 	player->DisposeQueue(true);
 	player->CreateQueueForFile((CFStringRef) [[NSBundle mainBundle] pathForResource:label.text ofType:@"mp3"]);
+	player->SetVolume(volume);
+	printf("Volume %f\n",player->GetVolume());
 	if(stopped == NO && paused == NO) {
 		printf("Back to playing...\n");
 
@@ -161,6 +163,26 @@
 		stopped = YES;
 		paused = NO;
 	}
+}
+
+- (void)setVolume:(Float32)level {
+	if (level < 0) {
+		volume = 0;
+	} else if (level > 1) {
+		volume = 1;
+	} else {
+		volume = level;
+	}
+	player->SetVolume(volume);
+	volumeBar.progress = volume;
+}
+
+- (void)increaseVolume {
+	[self setVolume:volume + 0.1];
+}
+
+- (void)decreaseVolume {
+	[self setVolume:volume - 0.1];	
 }
 
 - (void)displayImage:(NSString*)imgFile {
@@ -175,6 +197,7 @@
 - (void)handleLeftSwipeGesture {
 	[self previousSong];
 }
+
 - (void)handleRightSwipeGesture {
 	[self nextSong];
 }
@@ -182,11 +205,17 @@
 - (void)handleSingleTapGesture {
 	[self playPause];
 }
+
 - (void)handleDoubleTapGesture {
 	[self stop];
 }
-- (void)handleClockwiseCircularGesture {}
-- (void)handleCounterclockwiseCircularGesture {}
+
+- (void)handleClockwiseCircularGesture {
+	[self increaseVolume];
+}
+- (void)handleCounterclockwiseCircularGesture {
+	[self decreaseVolume];
+}
 - (void)handleUnsupportedGesture:(NSString*) message {}
 
 @end

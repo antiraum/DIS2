@@ -169,6 +169,23 @@ OSStatus AQPlayer::StartQueue(Boolean inResume)
 	return AudioQueueStart(mQueue, NULL);
 }
 
+void AQPlayer::SetVolume(Float32 level)
+{
+	if (mQueue == NULL) {
+		return;
+	}
+	AudioQueueSetParameter(mQueue, kAudioQueueParam_Volume, level);
+}
+	
+Float32 AQPlayer::GetVolume() {
+		if (mQueue == NULL) {
+			return -1.0;
+		}
+		Float32 volume = -1;
+		AudioQueueGetParameter(mQueue, kAudioQueueParam_Volume, &volume);
+		return volume;
+}
+
 OSStatus AQPlayer::StopQueue()
 {
 	OSStatus result = AudioQueueStop(mQueue, true);

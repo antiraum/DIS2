@@ -73,7 +73,9 @@ class AQPlayer
 		
 		void SetLooping(Boolean inIsLooping)	{ mIsLooping = inIsLooping; }
 		void CreateQueueForFile(CFStringRef inFilePath);
-		void DisposeQueue(Boolean inDisposeFile);	
+		void DisposeQueue(Boolean inDisposeFile);
+		void SetVolume(Float32 level);
+		Float32 GetVolume();
 										
 	private:
 		UInt32							GetNumPacketsToRead()				{ return mNumPacketsToRead; }

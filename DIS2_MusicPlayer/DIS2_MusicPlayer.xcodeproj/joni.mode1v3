@@ -284,7 +284,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 107}, {292, 614}}</string>
+							<string>{{0, 0}, {292, 614}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -333,7 +333,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F8E6E45E0FE5A2D300C17E31</string>
+										<string>F8E6E4A70FE5BFD400C17E31</string>
 										<key>history</key>
 										<array>
 											<string>F85D7F060FE460A7003E3154</string>
@@ -364,10 +364,12 @@
 											<string>F8E6E3BD0FE58B5800C17E31</string>
 											<string>F8E6E40F0FE59A0300C17E31</string>
 											<string>F8E6E4110FE59A0300C17E31</string>
-											<string>F8E6E4390FE59C2E00C17E31</string>
-											<string>F8E6E4470FE59FF500C17E31</string>
-											<string>F8E6E4480FE59FF500C17E31</string>
-											<string>F8E6E4490FE59FF500C17E31</string>
+											<string>F8E6E4690FE5BAFF00C17E31</string>
+											<string>F8E6E46B0FE5BAFF00C17E31</string>
+											<string>F8E6E4910FE5BF2000C17E31</string>
+											<string>F8E6E4920FE5BF2000C17E31</string>
+											<string>F8E6E4940FE5BF2000C17E31</string>
+											<string>F8E6E4950FE5BF2000C17E31</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -529,6 +531,31 @@
 											<string>F8E6E44A0FE59FF500C17E31</string>
 											<string>F8E6E44B0FE59FF500C17E31</string>
 											<string>F8E6E44C0FE59FF500C17E31</string>
+											<string>F8E6E46E0FE5BAFF00C17E31</string>
+											<string>F8E6E46F0FE5BAFF00C17E31</string>
+											<string>F8E6E4700FE5BAFF00C17E31</string>
+											<string>F8E6E4710FE5BAFF00C17E31</string>
+											<string>F8E6E4720FE5BAFF00C17E31</string>
+											<string>F8E6E4730FE5BAFF00C17E31</string>
+											<string>F8E6E4750FE5BAFF00C17E31</string>
+											<string>F8E6E4760FE5BAFF00C17E31</string>
+											<string>F8E6E4770FE5BAFF00C17E31</string>
+											<string>F8E6E4780FE5BAFF00C17E31</string>
+											<string>F8E6E4820FE5BC3D00C17E31</string>
+											<string>F8E6E4830FE5BC3D00C17E31</string>
+											<string>F8E6E4870FE5BD7500C17E31</string>
+											<string>F8E6E4960FE5BF2000C17E31</string>
+											<string>F8E6E4970FE5BF2000C17E31</string>
+											<string>F8E6E4980FE5BF2000C17E31</string>
+											<string>F8E6E4990FE5BF2000C17E31</string>
+											<string>F8E6E49A0FE5BF2000C17E31</string>
+											<string>F8E6E49B0FE5BF2000C17E31</string>
+											<string>F8E6E49C0FE5BF2000C17E31</string>
+											<string>F8E6E49D0FE5BF2000C17E31</string>
+											<string>F8E6E49E0FE5BF2000C17E31</string>
+											<string>F8E6E49F0FE5BF2000C17E31</string>
+											<string>F8E6E4A00FE5BF2000C17E31</string>
+											<string>F8E6E4A20FE5BF2000C17E31</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -754,7 +781,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AQPlayer.h</string>
+								<string>AQPlayer.mm</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
