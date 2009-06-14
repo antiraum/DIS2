@@ -1,0 +1,59 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* DIS2_MusicPlayer */ = {
+		activeExec = 0;
+		executables = (
+			E24E0EB50FE56AC300CE1953 /* DIS2_MusicPlayer */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E24E0EB50FE56AC300CE1953 /* DIS2_MusicPlayer */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* DIS2_MusicPlayer */;
+		codeSenseManager = E24E0ECA0FE56AE200CE1953 /* Code sense */;
+		executables = (
+			E24E0EB50FE56AC300CE1953 /* DIS2_MusicPlayer */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 266693315;
+			PBXWorkspaceStateSaveDate = 266693315;
+		};
+		sourceControlManager = E24E0EC90FE56AE200CE1953 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E24E0EB50FE56AC300CE1953 /* DIS2_MusicPlayer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = DIS2_MusicPlayer;
+		sourceDirectories = (
+		);
+	};
+	E24E0EC90FE56AE200CE1953 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	E24E0ECA0FE56AE200CE1953 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
