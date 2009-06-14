@@ -11,7 +11,7 @@
 
 @implementation DIS2_MusicPlayerViewController
 
-@synthesize music;
+//@synthesize music;
 
 
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -36,22 +36,22 @@
     [super viewDidLoad];
 	
 	NSArray* files = [[NSFileManager defaultManager] directoryContentsAtPath:[[NSBundle mainBundle] bundlePath]];
-	NSMutableArray* musicFiles = [NSMutableArray arrayWithCapacity:[files count] - 5];
+	NSMutableArray* music = [NSMutableArray arrayWithCapacity:[files count] - 5];
 	
 	for(int i = 0; i < [files count]; i++) {
 		NSString* filename = [files objectAtIndex:i];
 		if ([filename hasSuffix:@".mp3"]) {
 			//printf("%s \n",[filename UTF8String]);
-			[musicFiles addObject:[filename substringToIndex:[filename length] - 4]];
+			[music addObject:[filename substringToIndex:[filename length] - 4]];
 		}
 	}
-	music = [NSArray arrayWithArray:musicFiles];
+	songCount = [music count];
+
 	paused = NO;
 	stopped = YES;
-	songCount = [music count];
 	printf("Loaded %d songs\n",songCount);
 	player = new AQPlayer();
-	[self setSong:1];
+	[self setSong:0];
 }
 
 
@@ -77,28 +77,35 @@
 
 - (void)playPause {
 	if (stopped == YES) {
+		[self displayImage:@"play"];
 		player->StartQueue(false);
 		stopped = NO;
 	} else if (paused == YES) {
+		[self displayImage:@"play"];
 		player->StartQueue(true);
 		paused = NO;
 	} else {
+		[self displayImage:@"pause"];
 		player->StopQueue();
 		paused = YES;
 	}
 }
 - (void)nextSong {
 	if (currentSong + 1 < songCount) {
+		[self displayImage:@"next"];
 		[self setSong:currentSong+1];
 	}
 }
 - (void)previousSong {
 	if (currentSong > 0) {
+		[self displayImage:@"prev"];
 		[self setSong:currentSong-1];
 	}
 }
 - (void)stop {
 	printf("Stopping...\n");
+	
+	[self displayImage:@"stop"];
 	player->StopQueue();
 	stopped = YES;
 	[self setSong:0];
@@ -107,17 +114,40 @@
 	if (number >= songCount) {
 		return;
 	}
+
+	NSArray* files = [[NSFileManager defaultManager] directoryContentsAtPath:[[NSBundle mainBundle] bundlePath]];
+	NSMutableArray* music = [NSMutableArray arrayWithCapacity:[files count] - 5];
+	
+	for(int i = 0; i < [files count]; i++) {
+		NSString* filename = [files objectAtIndex:i];
+		if ([filename hasSuffix:@".mp3"]) {
+			//printf("%s \n",[filename UTF8String]);
+			[music addObject:[filename substringToIndex:[filename length] - 4]];
+		}
+	}
+	songCount = [music count];
+	
+	
+	printf("Getting song list\n");
+	NSArray *songList = music;
+	printf("Song list count: %d",[songList count]);
+	
 	printf("Setting song %d\n",number);
 
 	currentSong = number;
-	label.text = [[self music] objectAtIndex:number];
+	printf("Setting label\n");
+
+	label.text = [songList objectAtIndex:number];
+	printf("Checkin player status\n");
+
 	if(stopped == NO && paused == NO) {
 		printf("Stopping queue...\n");
 		player->StopQueue();
 	}
 	printf("Creating queue...\n");
-
-	player->CreateQueueForFile((CFStringRef) [[NSBundle mainBundle] pathForResource:[[self music] objectAtIndex:number] ofType:@"mp3"]);
+	delete player;
+	player = new AQPlayer();
+	player->CreateQueueForFile((CFStringRef) [[NSBundle mainBundle] pathForResource:label.text ofType:@"mp3"]);
 	if(stopped == NO && paused == NO) {
 		printf("Back to playing...\n");
 
@@ -127,6 +157,15 @@
 		stopped = YES;
 		paused = NO;
 	}
+}
+
+- (void)displayImage:(NSString*)imgFile {
+	image.image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:imgFile ofType:@"png"]];
+	[self performSelector:@selector(eraseImage) withObject:nil afterDelay:0.5];
+}
+
+- (void)eraseImage {
+	image.image = nil;
 }
 
 - (void)handleLeftSwipeGesture {

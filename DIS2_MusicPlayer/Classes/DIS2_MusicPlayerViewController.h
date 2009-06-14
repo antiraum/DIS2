@@ -12,15 +12,16 @@
 
 @interface DIS2_MusicPlayerViewController : UIViewController <GestureHandler> {
 	IBOutlet UILabel *label;
+	IBOutlet UIImageView *image;
 	AQPlayer* player;
-	NSArray* music;
+	//NSMutableArray *music;
 	NSUInteger songCount;
 	NSUInteger currentSong;
 	Boolean stopped;
 	Boolean paused;
 }
 
-@property (assign) NSArray* music;
+//@property (nonatomic, retain) NSMutableArray *music;
 
 - (void)handleLeftSwipeGesture;
 - (void)handleRightSwipeGesture;
@@ -34,6 +35,8 @@
 - (void)previousSong;
 - (void)stop;
 - (void)setSong:(NSUInteger)number; 
+- (void)displayImage:(NSString*)imgFile;
+- (void)eraseImage;
 
 @end
 

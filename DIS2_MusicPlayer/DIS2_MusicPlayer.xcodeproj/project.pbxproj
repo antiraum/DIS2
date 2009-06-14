@@ -64,6 +64,11 @@
 		F85D80460FE46636003E3154 /* 41 Zak McKraken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801D0FE46636003E3154 /* 41 Zak McKraken.mp3 */; };
 		F8E6E1970FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6E1960FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m */; };
 		F8E6E2080FE56B4B00C17E31 /* CGPointUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8E6E2070FE56B4B00C17E31 /* CGPointUtils.c */; };
+		F8E6E4340FE59BF900C17E31 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E6E42F0FE59BF900C17E31 /* next.png */; };
+		F8E6E4350FE59BF900C17E31 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E6E4300FE59BF900C17E31 /* pause.png */; };
+		F8E6E4360FE59BF900C17E31 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E6E4310FE59BF900C17E31 /* play.png */; };
+		F8E6E4370FE59BF900C17E31 /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E6E4320FE59BF900C17E31 /* prev.png */; };
+		F8E6E4380FE59BF900C17E31 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E6E4330FE59BF900C17E31 /* stop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -137,6 +142,11 @@
 		F8E6E2010FE56A4100C17E31 /* DIS2_Gesture_DetectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIS2_Gesture_DetectorProtocol.h; sourceTree = "<group>"; };
 		F8E6E2060FE56B4B00C17E31 /* CGPointUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointUtils.h; sourceTree = "<group>"; };
 		F8E6E2070FE56B4B00C17E31 /* CGPointUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGPointUtils.c; sourceTree = "<group>"; };
+		F8E6E42F0FE59BF900C17E31 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		F8E6E4300FE59BF900C17E31 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		F8E6E4310FE59BF900C17E31 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		F8E6E4320FE59BF900C17E31 /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev.png; sourceTree = "<group>"; };
+		F8E6E4330FE59BF900C17E31 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +216,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F8E6E42E0FE59BF900C17E31 /* images */,
 				F85D7FF40FE46624003E3154 /* audio */,
 				2899E5210DE3E06400AC0155 /* DIS2_MusicPlayerViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -286,6 +297,18 @@
 				F85D801D0FE46636003E3154 /* 41 Zak McKraken.mp3 */,
 			);
 			path = audio;
+			sourceTree = "<group>";
+		};
+		F8E6E42E0FE59BF900C17E31 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F8E6E42F0FE59BF900C17E31 /* next.png */,
+				F8E6E4300FE59BF900C17E31 /* pause.png */,
+				F8E6E4310FE59BF900C17E31 /* play.png */,
+				F8E6E4320FE59BF900C17E31 /* prev.png */,
+				F8E6E4330FE59BF900C17E31 /* stop.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,6 +396,11 @@
 				F85D80440FE46636003E3154 /* 39 TV Sports Basketball.mp3 in Resources */,
 				F85D80450FE46636003E3154 /* 40 Werner das Spiel.mp3 in Resources */,
 				F85D80460FE46636003E3154 /* 41 Zak McKraken.mp3 in Resources */,
+				F8E6E4340FE59BF900C17E31 /* next.png in Resources */,
+				F8E6E4350FE59BF900C17E31 /* pause.png in Resources */,
+				F8E6E4360FE59BF900C17E31 /* play.png in Resources */,
+				F8E6E4370FE59BF900C17E31 /* prev.png in Resources */,
+				F8E6E4380FE59BF900C17E31 /* stop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

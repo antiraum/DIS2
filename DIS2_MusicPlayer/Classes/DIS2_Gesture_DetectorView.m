@@ -13,29 +13,30 @@
 }
 
 - (void)drawRect:(CGRect)rect {
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    
-    CGContextSetLineWidth(context, 2.0);
-    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
-    CGContextSetFillColorWithColor(context, [UIColor redColor].CGColor);
-    
-    if (firstTouch.x != 0.0 && firstTouch.y != 0.0) {
-        CGRect dotRect = CGRectMake(firstTouch.x - 3, firstTouch.y - 3.0, 5.0, 5.0);
-        CGContextAddEllipseInRect(context, dotRect);
-        CGContextDrawPath(context, kCGPathFillStroke);
-        
-        CGContextMoveToPoint(context, firstTouch.x, firstTouch.y);
-        for (NSString *onePointString in points) {
-            CGPoint nextPoint = CGPointFromString(onePointString);
-            CGContextAddLineToPoint(context, nextPoint.x, nextPoint.y);
-            
-        }
-        CGContextStrokePath(context);
-    } else {
-        CGContextSetFillColorWithColor(context, self.backgroundColor.CGColor);
-        CGContextAddRect(context, self.bounds);
-        CGContextFillPath(context);
-    }
+	[super drawRect:rect];
+//    CGContextRef context = UIGraphicsGetCurrentContext();
+//    
+//    CGContextSetLineWidth(context, 2.0);
+//    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+//    CGContextSetFillColorWithColor(context, [UIColor redColor].CGColor);
+//    
+//    if (firstTouch.x != 0.0 && firstTouch.y != 0.0) {
+//        CGRect dotRect = CGRectMake(firstTouch.x - 3, firstTouch.y - 3.0, 5.0, 5.0);
+//        CGContextAddEllipseInRect(context, dotRect);
+//        CGContextDrawPath(context, kCGPathFillStroke);
+//        
+//        CGContextMoveToPoint(context, firstTouch.x, firstTouch.y);
+//        for (NSString *onePointString in points) {
+//            CGPoint nextPoint = CGPointFromString(onePointString);
+//            CGContextAddLineToPoint(context, nextPoint.x, nextPoint.y);
+//            
+//        }
+//        CGContextStrokePath(context);
+//    } else {
+//        CGContextSetFillColorWithColor(context, self.backgroundColor.CGColor);
+//        CGContextAddRect(context, self.bounds);
+//        CGContextFillPath(context);
+//    }
 }
 
 - (void)dealloc {
