@@ -84,6 +84,9 @@
 		[self displayImage:@"play"];
 		player->StartQueue(true);
 		paused = NO;
+	} else if (player->IsDone()) {
+		[self displayImage:@"play"];
+		player->StartQueue(false);
 	} else {
 		[self displayImage:@"pause"];
 		player->StopQueue();
@@ -130,7 +133,7 @@
 	
 	printf("Getting song list\n");
 	NSArray *songList = music;
-	printf("Song list count: %d",[songList count]);
+	printf("Song list count: %d\n",[songList count]);
 	
 	printf("Setting song %d\n",number);
 
@@ -138,15 +141,16 @@
 	printf("Setting label\n");
 
 	label.text = [songList objectAtIndex:number];
-	printf("Checkin player status\n");
+	printf("Checking player status\n");
 
 	if(stopped == NO && paused == NO) {
 		printf("Stopping queue...\n");
 		player->StopQueue();
 	}
 	printf("Creating queue...\n");
-	delete player;
-	player = new AQPlayer();
+	//delete player;
+	//player = new AQPlayer();
+	player->DisposeQueue(true);
 	player->CreateQueueForFile((CFStringRef) [[NSBundle mainBundle] pathForResource:label.text ofType:@"mp3"]);
 	if(stopped == NO && paused == NO) {
 		printf("Back to playing...\n");

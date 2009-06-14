@@ -66,6 +66,7 @@ class AQPlayer
 		AudioQueueRef					Queue()					{ return mQueue; }
 		CAStreamBasicDescription		DataFormat() const		{ return mDataFormat; }		
 		Boolean							IsRunning()	const		{ return (mIsRunning) ? true : false; }
+		Boolean							IsDone()	const		{ return mIsDone; } // Added JS 2009-06-14
 		Boolean							IsInitialized()	const	{ return mIsInitialized; }		
 		CFStringRef						GetFilePath() const		{ return (mFilePath) ? mFilePath : CFSTR(""); }
 		Boolean							IsLooping() const		{ return mIsLooping; }
