@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DIS2_MusicPlayerAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DIS2_MusicPlayerAppDelegate.mm */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* DIS2_MusicPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DIS2_MusicPlayerViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */; };
+		F85D7E6E0FE40842003E3154 /* DIS2_MusicPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F85D7E6D0FE40842003E3154 /* DIS2_MusicPlayerView.m */; };
+		F85D7E7E0FE40A93003E3154 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85D7E7D0FE40A93003E3154 /* CoreAudio.framework */; };
+		F85D7E8A0FE40B3B003E3154 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85D7E890FE40B3B003E3154 /* AudioToolbox.framework */; };
+		F85D7EDB0FE4323F003E3154 /* AQPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F85D7ED90FE4323F003E3154 /* AQPlayer.mm */; };
+		F85D7EE40FE432AC003E3154 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F85D7EDD0FE432AC003E3154 /* CADebugMacros.cpp */; };
+		F85D7EE50FE432AC003E3154 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F85D7EE00FE432AC003E3154 /* CAStreamBasicDescription.cpp */; };
+		F85D7EE60FE432AC003E3154 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F85D7EE20FE432AC003E3154 /* CAXException.cpp */; };
+		F85D801E0FE46636003E3154 /* 01 Boulderdash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FF50FE46624003E3154 /* 01 Boulderdash.mp3 */; };
+		F85D801F0FE46636003E3154 /* 02 Bubble Bobble Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FF60FE46624003E3154 /* 02 Bubble Bobble Intro.mp3 */; };
+		F85D80200FE46636003E3154 /* 03 Bubble Bobble Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FF70FE46624003E3154 /* 03 Bubble Bobble Ingame.mp3 */; };
+		F85D80210FE46636003E3154 /* 04 Bubble Bobble Extend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FF80FE46624003E3154 /* 04 Bubble Bobble Extend.mp3 */; };
+		F85D80220FE46636003E3154 /* 05 Bubble Bobble Highscore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FF90FE46624003E3154 /* 05 Bubble Bobble Highscore.mp3 */; };
+		F85D80230FE46636003E3154 /* 06 Defender of the Crown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFA0FE46624003E3154 /* 06 Defender of the Crown.mp3 */; };
+		F85D80240FE46636003E3154 /* 07 Duck Tales Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFB0FE46624003E3154 /* 07 Duck Tales Intro.mp3 */; };
+		F85D80250FE46636003E3154 /* 08 Dynablaster Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFC0FE46624003E3154 /* 08 Dynablaster Intro.mp3 */; };
+		F85D80260FE46636003E3154 /* 09 Dynablaster Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFD0FE46624003E3154 /* 09 Dynablaster Menu.mp3 */; };
+		F85D80270FE46636003E3154 /* 10 Dynablaster Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFE0FE46625003E3154 /* 10 Dynablaster Menu.mp3 */; };
+		F85D80280FE46636003E3154 /* 11 Dynablaster Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFF0FE46625003E3154 /* 11 Dynablaster Ingame.mp3 */; };
+		F85D80290FE46636003E3154 /* 12 Giana Sisters Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80000FE46625003E3154 /* 12 Giana Sisters Intro.mp3 */; };
+		F85D802A0FE46636003E3154 /* 13 Giana Sisters Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80010FE46625003E3154 /* 13 Giana Sisters Menu.mp3 */; };
+		F85D802B0FE46636003E3154 /* 14 Giana Sisters Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80020FE46625003E3154 /* 14 Giana Sisters Ingame.mp3 */; };
+		F85D802C0FE46636003E3154 /* 15 Giana Sisters Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80030FE46625003E3154 /* 15 Giana Sisters Ingame.mp3 */; };
+		F85D802D0FE46636003E3154 /* 16 Hole in One.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80040FE46625003E3154 /* 16 Hole in One.mp3 */; };
+		F85D802E0FE46636003E3154 /* 17 Hybris Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80050FE46626003E3154 /* 17 Hybris Intro.mp3 */; };
+		F85D802F0FE46636003E3154 /* 18 Hybris Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80060FE46627003E3154 /* 18 Hybris Ingame.mp3 */; };
+		F85D80300FE46636003E3154 /* 19 Indiana Jones III.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80070FE46628003E3154 /* 19 Indiana Jones III.mp3 */; };
+		F85D80310FE46636003E3154 /* 20 Lotus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80080FE4662A003E3154 /* 20 Lotus.mp3 */; };
+		F85D80320FE46636003E3154 /* 21 Lotus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80090FE4662A003E3154 /* 21 Lotus.mp3 */; };
+		F85D80330FE46636003E3154 /* 22 Lotus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800A0FE4662B003E3154 /* 22 Lotus.mp3 */; };
+		F85D80340FE46636003E3154 /* 23 Lotus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800B0FE4662B003E3154 /* 23 Lotus.mp3 */; };
+		F85D80350FE46636003E3154 /* 24 Lotus Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800C0FE4662B003E3154 /* 24 Lotus Menu.mp3 */; };
+		F85D80360FE46636003E3154 /* 25 Lotus II Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800D0FE4662C003E3154 /* 25 Lotus II Menu.mp3 */; };
+		F85D80370FE46636003E3154 /* 26 New Zealand Story Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800E0FE4662D003E3154 /* 26 New Zealand Story Ingame.mp3 */; };
+		F85D80380FE46636003E3154 /* 27 Oil Imperium.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800F0FE4662E003E3154 /* 27 Oil Imperium.mp3 */; };
+		F85D80390FE46636003E3154 /* 28 Operation Wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80100FE4662E003E3154 /* 28 Operation Wolf.mp3 */; };
+		F85D803A0FE46636003E3154 /* 29 Prince of Persia Crackscreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80110FE4662F003E3154 /* 29 Prince of Persia Crackscreen.mp3 */; };
+		F85D803B0FE46636003E3154 /* 30 Rick Dangerous Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80120FE46630003E3154 /* 30 Rick Dangerous Intro.mp3 */; };
+		F85D803C0FE46636003E3154 /* 31 Rick Dangerous Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80130FE46630003E3154 /* 31 Rick Dangerous Menu.mp3 */; };
+		F85D803D0FE46636003E3154 /* 32 Rick Dangerous Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80140FE46630003E3154 /* 32 Rick Dangerous Ingame.mp3 */; };
+		F85D803E0FE46636003E3154 /* 33 RFV Honda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80150FE46631003E3154 /* 33 RFV Honda.mp3 */; };
+		F85D803F0FE46636003E3154 /* 34 Sensible Soccer Start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80160FE46631003E3154 /* 34 Sensible Soccer Start.mp3 */; };
+		F85D80400FE46636003E3154 /* 35 Super Hang On.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80170FE46631003E3154 /* 35 Super Hang On.mp3 */; };
+		F85D80410FE46636003E3154 /* 36 The Humans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80180FE46632003E3154 /* 36 The Humans.mp3 */; };
+		F85D80420FE46636003E3154 /* 37 Tie Break.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80190FE46633003E3154 /* 37 Tie Break.mp3 */; };
+		F85D80430FE46636003E3154 /* 38 Time Machine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801A0FE46634003E3154 /* 38 Time Machine.mp3 */; };
+		F85D80440FE46636003E3154 /* 39 TV Sports Basketball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801B0FE46635003E3154 /* 39 TV Sports Basketball.mp3 */; };
+		F85D80450FE46636003E3154 /* 40 Werner das Spiel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801C0FE46636003E3154 /* 40 Werner das Spiel.mp3 */; };
+		F85D80460FE46636003E3154 /* 41 Zak McKraken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801D0FE46636003E3154 /* 41 Zak McKraken.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DIS2_MusicPlayerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIS2_MusicPlayerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DIS2_MusicPlayerAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DIS2_MusicPlayerAppDelegate.mm; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DIS2_MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIS2_MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* DIS2_MusicPlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DIS2_MusicPlayerViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* DIS2_MusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIS2_MusicPlayerViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DIS2_MusicPlayerViewController.mm; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* DIS2_MusicPlayer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIS2_MusicPlayer_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85D7E6C0FE40842003E3154 /* DIS2_MusicPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIS2_MusicPlayerView.h; sourceTree = "<group>"; };
+		F85D7E6D0FE40842003E3154 /* DIS2_MusicPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIS2_MusicPlayerView.m; sourceTree = "<group>"; };
+		F85D7E7D0FE40A93003E3154 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		F85D7E890FE40B3B003E3154 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		F85D7ED90FE4323F003E3154 /* AQPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AQPlayer.mm; sourceTree = "<group>"; };
+		F85D7EDA0FE4323F003E3154 /* AQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQPlayer.h; sourceTree = "<group>"; };
+		F85D7EDD0FE432AC003E3154 /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		F85D7EDE0FE432AC003E3154 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		F85D7EDF0FE432AC003E3154 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		F85D7EE00FE432AC003E3154 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		F85D7EE10FE432AC003E3154 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		F85D7EE20FE432AC003E3154 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		F85D7EE30FE432AC003E3154 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		F85D7FF50FE46624003E3154 /* 01 Boulderdash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Boulderdash.mp3"; sourceTree = "<group>"; };
+		F85D7FF60FE46624003E3154 /* 02 Bubble Bobble Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Bubble Bobble Intro.mp3"; sourceTree = "<group>"; };
+		F85D7FF70FE46624003E3154 /* 03 Bubble Bobble Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Bubble Bobble Ingame.mp3"; sourceTree = "<group>"; };
+		F85D7FF80FE46624003E3154 /* 04 Bubble Bobble Extend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Bubble Bobble Extend.mp3"; sourceTree = "<group>"; };
+		F85D7FF90FE46624003E3154 /* 05 Bubble Bobble Highscore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 Bubble Bobble Highscore.mp3"; sourceTree = "<group>"; };
+		F85D7FFA0FE46624003E3154 /* 06 Defender of the Crown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 Defender of the Crown.mp3"; sourceTree = "<group>"; };
+		F85D7FFB0FE46624003E3154 /* 07 Duck Tales Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 Duck Tales Intro.mp3"; sourceTree = "<group>"; };
+		F85D7FFC0FE46624003E3154 /* 08 Dynablaster Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 Dynablaster Intro.mp3"; sourceTree = "<group>"; };
+		F85D7FFD0FE46624003E3154 /* 09 Dynablaster Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 Dynablaster Menu.mp3"; sourceTree = "<group>"; };
+		F85D7FFE0FE46625003E3154 /* 10 Dynablaster Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 Dynablaster Menu.mp3"; sourceTree = "<group>"; };
+		F85D7FFF0FE46625003E3154 /* 11 Dynablaster Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11 Dynablaster Ingame.mp3"; sourceTree = "<group>"; };
+		F85D80000FE46625003E3154 /* 12 Giana Sisters Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12 Giana Sisters Intro.mp3"; sourceTree = "<group>"; };
+		F85D80010FE46625003E3154 /* 13 Giana Sisters Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "13 Giana Sisters Menu.mp3"; sourceTree = "<group>"; };
+		F85D80020FE46625003E3154 /* 14 Giana Sisters Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14 Giana Sisters Ingame.mp3"; sourceTree = "<group>"; };
+		F85D80030FE46625003E3154 /* 15 Giana Sisters Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "15 Giana Sisters Ingame.mp3"; sourceTree = "<group>"; };
+		F85D80040FE46625003E3154 /* 16 Hole in One.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "16 Hole in One.mp3"; sourceTree = "<group>"; };
+		F85D80050FE46626003E3154 /* 17 Hybris Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "17 Hybris Intro.mp3"; sourceTree = "<group>"; };
+		F85D80060FE46627003E3154 /* 18 Hybris Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "18 Hybris Ingame.mp3"; sourceTree = "<group>"; };
+		F85D80070FE46628003E3154 /* 19 Indiana Jones III.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "19 Indiana Jones III.mp3"; sourceTree = "<group>"; };
+		F85D80080FE4662A003E3154 /* 20 Lotus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20 Lotus.mp3"; sourceTree = "<group>"; };
+		F85D80090FE4662A003E3154 /* 21 Lotus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "21 Lotus.mp3"; sourceTree = "<group>"; };
+		F85D800A0FE4662B003E3154 /* 22 Lotus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "22 Lotus.mp3"; sourceTree = "<group>"; };
+		F85D800B0FE4662B003E3154 /* 23 Lotus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "23 Lotus.mp3"; sourceTree = "<group>"; };
+		F85D800C0FE4662B003E3154 /* 24 Lotus Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "24 Lotus Menu.mp3"; sourceTree = "<group>"; };
+		F85D800D0FE4662C003E3154 /* 25 Lotus II Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "25 Lotus II Menu.mp3"; sourceTree = "<group>"; };
+		F85D800E0FE4662D003E3154 /* 26 New Zealand Story Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "26 New Zealand Story Ingame.mp3"; sourceTree = "<group>"; };
+		F85D800F0FE4662E003E3154 /* 27 Oil Imperium.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "27 Oil Imperium.mp3"; sourceTree = "<group>"; };
+		F85D80100FE4662E003E3154 /* 28 Operation Wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "28 Operation Wolf.mp3"; sourceTree = "<group>"; };
+		F85D80110FE4662F003E3154 /* 29 Prince of Persia Crackscreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "29 Prince of Persia Crackscreen.mp3"; sourceTree = "<group>"; };
+		F85D80120FE46630003E3154 /* 30 Rick Dangerous Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "30 Rick Dangerous Intro.mp3"; sourceTree = "<group>"; };
+		F85D80130FE46630003E3154 /* 31 Rick Dangerous Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "31 Rick Dangerous Menu.mp3"; sourceTree = "<group>"; };
+		F85D80140FE46630003E3154 /* 32 Rick Dangerous Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "32 Rick Dangerous Ingame.mp3"; sourceTree = "<group>"; };
+		F85D80150FE46631003E3154 /* 33 RFV Honda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "33 RFV Honda.mp3"; sourceTree = "<group>"; };
+		F85D80160FE46631003E3154 /* 34 Sensible Soccer Start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "34 Sensible Soccer Start.mp3"; sourceTree = "<group>"; };
+		F85D80170FE46631003E3154 /* 35 Super Hang On.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "35 Super Hang On.mp3"; sourceTree = "<group>"; };
+		F85D80180FE46632003E3154 /* 36 The Humans.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "36 The Humans.mp3"; sourceTree = "<group>"; };
+		F85D80190FE46633003E3154 /* 37 Tie Break.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "37 Tie Break.mp3"; sourceTree = "<group>"; };
+		F85D801A0FE46634003E3154 /* 38 Time Machine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "38 Time Machine.mp3"; sourceTree = "<group>"; };
+		F85D801B0FE46635003E3154 /* 39 TV Sports Basketball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "39 TV Sports Basketball.mp3"; sourceTree = "<group>"; };
+		F85D801C0FE46636003E3154 /* 40 Werner das Spiel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "40 Werner das Spiel.mp3"; sourceTree = "<group>"; };
+		F85D801D0FE46636003E3154 /* 41 Zak McKraken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "41 Zak McKraken.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				F85D7E7E0FE40A93003E3154 /* CoreAudio.framework in Frameworks */,
+				F85D7E8A0FE40B3B003E3154 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F85D7ED90FE4323F003E3154 /* AQPlayer.mm */,
+				F85D7EDA0FE4323F003E3154 /* AQPlayer.h */,
+				1D3623240D0F684500981E51 /* DIS2_MusicPlayerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DIS2_MusicPlayerAppDelegate.mm */,
+				28D7ACF60DDB3853001CB0EB /* DIS2_MusicPlayerViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */,
+				F85D7E6C0FE40842003E3154 /* DIS2_MusicPlayerView.h */,
+				F85D7E6D0FE40842003E3154 /* DIS2_MusicPlayerView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DIS2_MusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				F85D7EDC0FE432AC003E3154 /* iPublicUtility */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* DIS2_MusicPlayer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F85D7FF40FE46624003E3154 /* audio */,
+				2899E5210DE3E06400AC0155 /* DIS2_MusicPlayerViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F85D7E890FE40B3B003E3154 /* AudioToolbox.framework */,
+				F85D7E7D0FE40A93003E3154 /* CoreAudio.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F85D7EDC0FE432AC003E3154 /* iPublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				F85D7EDD0FE432AC003E3154 /* CADebugMacros.cpp */,
+				F85D7EDE0FE432AC003E3154 /* CADebugMacros.h */,
+				F85D7EDF0FE432AC003E3154 /* CAMath.h */,
+				F85D7EE00FE432AC003E3154 /* CAStreamBasicDescription.cpp */,
+				F85D7EE10FE432AC003E3154 /* CAStreamBasicDescription.h */,
+				F85D7EE20FE432AC003E3154 /* CAXException.cpp */,
+				F85D7EE30FE432AC003E3154 /* CAXException.h */,
+			);
+			path = iPublicUtility;
+			sourceTree = "<group>";
+		};
+		F85D7FF40FE46624003E3154 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				F85D7FF50FE46624003E3154 /* 01 Boulderdash.mp3 */,
+				F85D7FF60FE46624003E3154 /* 02 Bubble Bobble Intro.mp3 */,
+				F85D7FF70FE46624003E3154 /* 03 Bubble Bobble Ingame.mp3 */,
+				F85D7FF80FE46624003E3154 /* 04 Bubble Bobble Extend.mp3 */,
+				F85D7FF90FE46624003E3154 /* 05 Bubble Bobble Highscore.mp3 */,
+				F85D7FFA0FE46624003E3154 /* 06 Defender of the Crown.mp3 */,
+				F85D7FFB0FE46624003E3154 /* 07 Duck Tales Intro.mp3 */,
+				F85D7FFC0FE46624003E3154 /* 08 Dynablaster Intro.mp3 */,
+				F85D7FFD0FE46624003E3154 /* 09 Dynablaster Menu.mp3 */,
+				F85D7FFE0FE46625003E3154 /* 10 Dynablaster Menu.mp3 */,
+				F85D7FFF0FE46625003E3154 /* 11 Dynablaster Ingame.mp3 */,
+				F85D80000FE46625003E3154 /* 12 Giana Sisters Intro.mp3 */,
+				F85D80010FE46625003E3154 /* 13 Giana Sisters Menu.mp3 */,
+				F85D80020FE46625003E3154 /* 14 Giana Sisters Ingame.mp3 */,
+				F85D80030FE46625003E3154 /* 15 Giana Sisters Ingame.mp3 */,
+				F85D80040FE46625003E3154 /* 16 Hole in One.mp3 */,
+				F85D80050FE46626003E3154 /* 17 Hybris Intro.mp3 */,
+				F85D80060FE46627003E3154 /* 18 Hybris Ingame.mp3 */,
+				F85D80070FE46628003E3154 /* 19 Indiana Jones III.mp3 */,
+				F85D80080FE4662A003E3154 /* 20 Lotus.mp3 */,
+				F85D80090FE4662A003E3154 /* 21 Lotus.mp3 */,
+				F85D800A0FE4662B003E3154 /* 22 Lotus.mp3 */,
+				F85D800B0FE4662B003E3154 /* 23 Lotus.mp3 */,
+				F85D800C0FE4662B003E3154 /* 24 Lotus Menu.mp3 */,
+				F85D800D0FE4662C003E3154 /* 25 Lotus II Menu.mp3 */,
+				F85D800E0FE4662D003E3154 /* 26 New Zealand Story Ingame.mp3 */,
+				F85D800F0FE4662E003E3154 /* 27 Oil Imperium.mp3 */,
+				F85D80100FE4662E003E3154 /* 28 Operation Wolf.mp3 */,
+				F85D80110FE4662F003E3154 /* 29 Prince of Persia Crackscreen.mp3 */,
+				F85D80120FE46630003E3154 /* 30 Rick Dangerous Intro.mp3 */,
+				F85D80130FE46630003E3154 /* 31 Rick Dangerous Menu.mp3 */,
+				F85D80140FE46630003E3154 /* 32 Rick Dangerous Ingame.mp3 */,
+				F85D80150FE46631003E3154 /* 33 RFV Honda.mp3 */,
+				F85D80160FE46631003E3154 /* 34 Sensible Soccer Start.mp3 */,
+				F85D80170FE46631003E3154 /* 35 Super Hang On.mp3 */,
+				F85D80180FE46632003E3154 /* 36 The Humans.mp3 */,
+				F85D80190FE46633003E3154 /* 37 Tie Break.mp3 */,
+				F85D801A0FE46634003E3154 /* 38 Time Machine.mp3 */,
+				F85D801B0FE46635003E3154 /* 39 TV Sports Basketball.mp3 */,
+				F85D801C0FE46636003E3154 /* 40 Werner das Spiel.mp3 */,
+				F85D801D0FE46636003E3154 /* 41 Zak McKraken.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DIS2_MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DIS2_MusicPlayer" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DIS2_MusicPlayer;
+			productName = DIS2_MusicPlayer;
+			productReference = 1D6058910D05DD3D006BFB54 /* DIS2_MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DIS2_MusicPlayer" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DIS2_MusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* DIS2_MusicPlayerViewController.xib in Resources */,
+				F85D801E0FE46636003E3154 /* 01 Boulderdash.mp3 in Resources */,
+				F85D801F0FE46636003E3154 /* 02 Bubble Bobble Intro.mp3 in Resources */,
+				F85D80200FE46636003E3154 /* 03 Bubble Bobble Ingame.mp3 in Resources */,
+				F85D80210FE46636003E3154 /* 04 Bubble Bobble Extend.mp3 in Resources */,
+				F85D80220FE46636003E3154 /* 05 Bubble Bobble Highscore.mp3 in Resources */,
+				F85D80230FE46636003E3154 /* 06 Defender of the Crown.mp3 in Resources */,
+				F85D80240FE46636003E3154 /* 07 Duck Tales Intro.mp3 in Resources */,
+				F85D80250FE46636003E3154 /* 08 Dynablaster Intro.mp3 in Resources */,
+				F85D80260FE46636003E3154 /* 09 Dynablaster Menu.mp3 in Resources */,
+				F85D80270FE46636003E3154 /* 10 Dynablaster Menu.mp3 in Resources */,
+				F85D80280FE46636003E3154 /* 11 Dynablaster Ingame.mp3 in Resources */,
+				F85D80290FE46636003E3154 /* 12 Giana Sisters Intro.mp3 in Resources */,
+				F85D802A0FE46636003E3154 /* 13 Giana Sisters Menu.mp3 in Resources */,
+				F85D802B0FE46636003E3154 /* 14 Giana Sisters Ingame.mp3 in Resources */,
+				F85D802C0FE46636003E3154 /* 15 Giana Sisters Ingame.mp3 in Resources */,
+				F85D802D0FE46636003E3154 /* 16 Hole in One.mp3 in Resources */,
+				F85D802E0FE46636003E3154 /* 17 Hybris Intro.mp3 in Resources */,
+				F85D802F0FE46636003E3154 /* 18 Hybris Ingame.mp3 in Resources */,
+				F85D80300FE46636003E3154 /* 19 Indiana Jones III.mp3 in Resources */,
+				F85D80310FE46636003E3154 /* 20 Lotus.mp3 in Resources */,
+				F85D80320FE46636003E3154 /* 21 Lotus.mp3 in Resources */,
+				F85D80330FE46636003E3154 /* 22 Lotus.mp3 in Resources */,
+				F85D80340FE46636003E3154 /* 23 Lotus.mp3 in Resources */,
+				F85D80350FE46636003E3154 /* 24 Lotus Menu.mp3 in Resources */,
+				F85D80360FE46636003E3154 /* 25 Lotus II Menu.mp3 in Resources */,
+				F85D80370FE46636003E3154 /* 26 New Zealand Story Ingame.mp3 in Resources */,
+				F85D80380FE46636003E3154 /* 27 Oil Imperium.mp3 in Resources */,
+				F85D80390FE46636003E3154 /* 28 Operation Wolf.mp3 in Resources */,
+				F85D803A0FE46636003E3154 /* 29 Prince of Persia Crackscreen.mp3 in Resources */,
+				F85D803B0FE46636003E3154 /* 30 Rick Dangerous Intro.mp3 in Resources */,
+				F85D803C0FE46636003E3154 /* 31 Rick Dangerous Menu.mp3 in Resources */,
+				F85D803D0FE46636003E3154 /* 32 Rick Dangerous Ingame.mp3 in Resources */,
+				F85D803E0FE46636003E3154 /* 33 RFV Honda.mp3 in Resources */,
+				F85D803F0FE46636003E3154 /* 34 Sensible Soccer Start.mp3 in Resources */,
+				F85D80400FE46636003E3154 /* 35 Super Hang On.mp3 in Resources */,
+				F85D80410FE46636003E3154 /* 36 The Humans.mp3 in Resources */,
+				F85D80420FE46636003E3154 /* 37 Tie Break.mp3 in Resources */,
+				F85D80430FE46636003E3154 /* 38 Time Machine.mp3 in Resources */,
+				F85D80440FE46636003E3154 /* 39 TV Sports Basketball.mp3 in Resources */,
+				F85D80450FE46636003E3154 /* 40 Werner das Spiel.mp3 in Resources */,
+				F85D80460FE46636003E3154 /* 41 Zak McKraken.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DIS2_MusicPlayerAppDelegate.mm in Sources */,
+				28D7ACF80DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm in Sources */,
+				F85D7E6E0FE40842003E3154 /* DIS2_MusicPlayerView.m in Sources */,
+				F85D7EDB0FE4323F003E3154 /* AQPlayer.mm in Sources */,
+				F85D7EE40FE432AC003E3154 /* CADebugMacros.cpp in Sources */,
+				F85D7EE50FE432AC003E3154 /* CAStreamBasicDescription.cpp in Sources */,
+				F85D7EE60FE432AC003E3154 /* CAXException.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DIS2_MusicPlayer_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = DIS2_MusicPlayer;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DIS2_MusicPlayer_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = DIS2_MusicPlayer;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DIS2_MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DIS2_MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

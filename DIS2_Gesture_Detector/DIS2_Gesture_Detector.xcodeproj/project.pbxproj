@@ -17,6 +17,8 @@
 		2899E5220DE3E06400AC0155 /* DIS2_Gesture_DetectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DIS2_Gesture_DetectorViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* DIS2_Gesture_DetectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DIS2_Gesture_DetectorViewController.m */; };
+		F85D7D400FE3E55F003E3154 /* MusicPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85D7D3F0FE3E55F003E3154 /* MusicPlayer.xib */; };
+		F85D7D710FE3EC87003E3154 /* MusicPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F85D7D700FE3EC87003E3154 /* MusicPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* DIS2_Gesture_Detector_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIS2_Gesture_Detector_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F85D7D3F0FE3E55F003E3154 /* MusicPlayer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicPlayer.xib; sourceTree = "<group>"; };
+		F85D7D6F0FE3EC87003E3154 /* MusicPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerView.h; sourceTree = "<group>"; };
+		F85D7D700FE3EC87003E3154 /* MusicPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,8 @@
 				28D7ACF70DDB3853001CB0EB /* DIS2_Gesture_DetectorViewController.m */,
 				1FD1FFCF0FA7664F00285E5B /* DIS2_Gesture_DetectorView.h */,
 				1FD1FFD00FA7664F00285E5B /* DIS2_Gesture_DetectorView.m */,
+				F85D7D6F0FE3EC87003E3154 /* MusicPlayerView.h */,
+				F85D7D700FE3EC87003E3154 /* MusicPlayerView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -102,6 +109,7 @@
 			children = (
 				2899E5210DE3E06400AC0155 /* DIS2_Gesture_DetectorViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				F85D7D3F0FE3E55F003E3154 /* MusicPlayer.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 			);
 			name = Resources;
@@ -161,6 +169,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* DIS2_Gesture_DetectorViewController.xib in Resources */,
+				F85D7D400FE3E55F003E3154 /* MusicPlayer.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				28D7ACF80DDB3853001CB0EB /* DIS2_Gesture_DetectorViewController.m in Sources */,
 				1FD1FFA10FA763E800285E5B /* CGPointUtils.c in Sources */,
 				1FD1FFD10FA7664F00285E5B /* DIS2_Gesture_DetectorView.m in Sources */,
+				F85D7D710FE3EC87003E3154 /* MusicPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

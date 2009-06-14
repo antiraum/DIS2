@@ -76,30 +76,22 @@
 	
 	// too many taps
 	if (numTaps > 2) {
-        label.text = @"Too many taps!";
-        [self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
-		[points removeAllObjects];
-		firstTouch = CGPointZero;
+        [self handleUnsupportedGesture:@"Too many taps!"];
+		[self resetGestureDetection];
 		return;
 	}	
 	
 	// detect double tap
 	if (numTaps == 2) {
-        label.text = @"Double tap detected";
-        [self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
-		[points removeAllObjects];
-		firstTouch = CGPointZero;
+		[self handleDoubleTapGesture];
+		[self resetGestureDetection];
 		return;
 	}
 	
 	// detect single tap
 	if (distanceBetweenPoints(firstTouch, endPoint) < kMinimumMovementDistanceVariance && [points count] <= kTapMaximumPoints) {
-		
-        label.text = @"Single tap detected";
-//        label.text = [NSString stringWithFormat:@"Single tap detected, points count %d", [points count]];
-        [self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
-		[points removeAllObjects];
-		firstTouch = CGPointZero;
+		[self handleSingleTapGesture];
+		[self resetGestureDetection];
 		return;
 	}
 	
@@ -113,31 +105,25 @@
 	}
 	if (isSwipe) {
 		if (firstTouch.x < endPoint.x) {
-			label.text = @"Right swipe detected";
+			[self handleRightSwipeGesture];
 		} else {
-			label.text = @"Left swipe detected";
+			[self handleLeftSwipeGesture];
 		}
-        [self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
-		[points removeAllObjects];
-		firstTouch = CGPointZero;
+        [self resetGestureDetection];
 		return;
     }
     
     // didn't finish close enough to starting point for circle
     if (distanceBetweenPoints(firstTouch, endPoint) > kCircleClosureDistanceVariance) {
-        label.text = @"End point too far away from start for a circle!";
-        [self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
-		[points removeAllObjects];
-		firstTouch = CGPointZero;
+        [self handleUnsupportedGesture:@"End point too far away from start for a circle!"];
+        [self resetGestureDetection];
         return;
     }
 	
     // not enough points for circle
     if ([points count] < 6) {
-        label.text = @"Too short for a circle!";
-        [self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
-		[points removeAllObjects];
-		firstTouch = CGPointZero;
+        [self handleUnsupportedGesture:@"Too short for a circle!"];
+        [self resetGestureDetection];
         return;
     }
     
@@ -208,21 +194,17 @@
         CGPoint onePoint = CGPointFromString(onePointString);
         CGFloat distanceFromRadius = fabsf(distanceBetweenPoints(center, onePoint));
         if (distanceFromRadius < minRadius || distanceFromRadius > maxRadius) {
-            label.text = [NSString stringWithFormat:@"Not round enough for a circle!", fabs(currentAngle)];
-            [self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
-			[points removeAllObjects];
-			firstTouch = CGPointZero;
-            return;
+            [self handleUnsupportedGesture:@"Not round enough for a circle!"];
+			[self resetGestureDetection];
+			return;
         }
         
         CGFloat pointAngle = angleBetweenLines(firstTouch, center, onePoint, center);
 		// label.text = [label.text stringByAppendingString:[NSString stringWithFormat:@ " %.0f", currentAngle]];
         
         if ((pointAngle > currentAngle && hasSwitched) && (index < [points count] - kOverlapTolerance)) {
-            label.text = [NSString stringWithFormat:@"Sequence of angles is wrong for circle!", fabs(currentAngle)];
-            [self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
-			[points removeAllObjects];
-			firstTouch = CGPointZero;
+			[self handleUnsupportedGesture:@"Sequence of angles is wrong for circle!"];
+            [self resetGestureDetection];
             return;
         }
             
@@ -236,15 +218,42 @@
     
 	CGFloat ccw = counterClockWise(firstTouch, CGPointFromString([points objectAtIndex:[points count]/3]), CGPointFromString([points objectAtIndex:[points count]*2/3]));
 	if (ccw > 0) {
-		label.text = @"Clockwise circle detected!";
+		[self handleClockwiseCircularGesture];
 	} else if (ccw < 0) {
-		label.text = @"Counterclockwise circle detected!";
+		[self handleCounterclockwiseCircularGesture];
 	} else {
-		label.text = @"LinearCircleException";
+		[self handleUnsupportedGesture:@"LinearCircleException"];
 	}
-    [self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
-    [points removeAllObjects];
-    firstTouch = CGPointZero;    
+    [self resetGestureDetection];   
 }
 
+- (void)handleLeftSwipeGesture {
+	[self displayText:@"Right swipe detected"];
+}
+- (void)handleRightSwipeGesture {
+	[self displayText:@"Left swipe detected"];
+}
+- (void)handleSingleTapGesture {
+	[self displayText:@"Single tap detected"];
+}
+- (void)handleDoubleTapGesture {
+	[self displayText:@"Double tap detected"];
+}
+- (void)handleClockwiseCircularGesture {
+	[self displayText:@"Clockwise circle detected!"];
+}
+- (void)handleCounterclockwiseCircularGesture {
+	[self displayText:@"Counterclockwise circle detected!"];
+}
+- (void)handleUnsupportedGesture:(NSString*) message {
+	[self displayText:message];
+}
+- (void)displayText:(NSString*) text {
+	label.text = text;
+	[self performSelector:@selector(eraseText) withObject:nil afterDelay:2.0];
+}
+- (void)resetGestureDetection {
+	[points removeAllObjects];
+    firstTouch = CGPointZero;
+}
 @end

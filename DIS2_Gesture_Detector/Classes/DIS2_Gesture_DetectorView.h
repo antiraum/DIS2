@@ -15,4 +15,13 @@
 @property (nonatomic, retain) IBOutlet UILabel *label;
 @property (nonatomic, retain) NSMutableArray *points;
 - (void)eraseText;
+- (void)handleLeftSwipeGesture;
+- (void)handleRightSwipeGesture;
+- (void)handleSingleTapGesture;
+- (void)handleDoubleTapGesture;
+- (void)handleClockwiseCircularGesture;
+- (void)handleCounterclockwiseCircularGesture;
+- (void)handleUnsupportedGesture:(NSString*) message;
+- (void)displayText:(NSString*) text;
+- (void)resetGestureDetection;
 @end
