@@ -8,12 +8,32 @@
 
 #import <UIKit/UIKit.h>
 #import "AQPlayer.h"
+#import "DIS2_Gesture_DetectorProtocol.h"
 
-@interface DIS2_MusicPlayerViewController : UIViewController {
+@interface DIS2_MusicPlayerViewController : UIViewController <GestureHandler> {
 	IBOutlet UILabel *label;
 	AQPlayer* player;
-	NSMutableArray* music;
+	NSArray* music;
+	NSUInteger songCount;
+	NSUInteger currentSong;
+	Boolean stopped;
+	Boolean paused;
 }
+
+@property (assign) NSArray* music;
+
+- (void)handleLeftSwipeGesture;
+- (void)handleRightSwipeGesture;
+- (void)handleSingleTapGesture;
+- (void)handleDoubleTapGesture;
+- (void)handleClockwiseCircularGesture;
+- (void)handleCounterclockwiseCircularGesture;
+- (void)handleUnsupportedGesture:(NSString*) message;
+- (void)playPause;
+- (void)nextSong;
+- (void)previousSong;
+- (void)stop;
+- (void)setSong:(NSUInteger)number; 
 
 @end
 

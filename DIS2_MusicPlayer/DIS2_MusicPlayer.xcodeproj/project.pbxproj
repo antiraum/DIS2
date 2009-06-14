@@ -15,7 +15,6 @@
 		2899E5220DE3E06400AC0155 /* DIS2_MusicPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DIS2_MusicPlayerViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */; };
-		F85D7E6E0FE40842003E3154 /* DIS2_MusicPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F85D7E6D0FE40842003E3154 /* DIS2_MusicPlayerView.m */; };
 		F85D7E7E0FE40A93003E3154 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85D7E7D0FE40A93003E3154 /* CoreAudio.framework */; };
 		F85D7E8A0FE40B3B003E3154 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85D7E890FE40B3B003E3154 /* AudioToolbox.framework */; };
 		F85D7EDB0FE4323F003E3154 /* AQPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F85D7ED90FE4323F003E3154 /* AQPlayer.mm */; };
@@ -63,6 +62,8 @@
 		F85D80440FE46636003E3154 /* 39 TV Sports Basketball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801B0FE46635003E3154 /* 39 TV Sports Basketball.mp3 */; };
 		F85D80450FE46636003E3154 /* 40 Werner das Spiel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801C0FE46636003E3154 /* 40 Werner das Spiel.mp3 */; };
 		F85D80460FE46636003E3154 /* 41 Zak McKraken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801D0FE46636003E3154 /* 41 Zak McKraken.mp3 */; };
+		F8E6E1970FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6E1960FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m */; };
+		F8E6E2080FE56B4B00C17E31 /* CGPointUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8E6E2070FE56B4B00C17E31 /* CGPointUtils.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,8 +80,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* DIS2_MusicPlayer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIS2_MusicPlayer_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F85D7E6C0FE40842003E3154 /* DIS2_MusicPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIS2_MusicPlayerView.h; sourceTree = "<group>"; };
-		F85D7E6D0FE40842003E3154 /* DIS2_MusicPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIS2_MusicPlayerView.m; sourceTree = "<group>"; };
 		F85D7E7D0FE40A93003E3154 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
 		F85D7E890FE40B3B003E3154 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
 		F85D7ED90FE4323F003E3154 /* AQPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AQPlayer.mm; sourceTree = "<group>"; };
@@ -133,6 +132,11 @@
 		F85D801B0FE46635003E3154 /* 39 TV Sports Basketball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "39 TV Sports Basketball.mp3"; sourceTree = "<group>"; };
 		F85D801C0FE46636003E3154 /* 40 Werner das Spiel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "40 Werner das Spiel.mp3"; sourceTree = "<group>"; };
 		F85D801D0FE46636003E3154 /* 41 Zak McKraken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "41 Zak McKraken.mp3"; sourceTree = "<group>"; };
+		F8E6E1950FE55EC700C17E31 /* DIS2_Gesture_DetectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIS2_Gesture_DetectorView.h; sourceTree = "<group>"; };
+		F8E6E1960FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIS2_Gesture_DetectorView.m; sourceTree = "<group>"; };
+		F8E6E2010FE56A4100C17E31 /* DIS2_Gesture_DetectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIS2_Gesture_DetectorProtocol.h; sourceTree = "<group>"; };
+		F8E6E2060FE56B4B00C17E31 /* CGPointUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointUtils.h; sourceTree = "<group>"; };
+		F8E6E2070FE56B4B00C17E31 /* CGPointUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGPointUtils.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,14 +158,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F8E6E1950FE55EC700C17E31 /* DIS2_Gesture_DetectorView.h */,
+				F8E6E1960FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m */,
 				F85D7ED90FE4323F003E3154 /* AQPlayer.mm */,
 				F85D7EDA0FE4323F003E3154 /* AQPlayer.h */,
 				1D3623240D0F684500981E51 /* DIS2_MusicPlayerAppDelegate.h */,
 				1D3623250D0F684500981E51 /* DIS2_MusicPlayerAppDelegate.mm */,
 				28D7ACF60DDB3853001CB0EB /* DIS2_MusicPlayerViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */,
-				F85D7E6C0FE40842003E3154 /* DIS2_MusicPlayerView.h */,
-				F85D7E6D0FE40842003E3154 /* DIS2_MusicPlayerView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -190,8 +194,11 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F8E6E2060FE56B4B00C17E31 /* CGPointUtils.h */,
+				F8E6E2070FE56B4B00C17E31 /* CGPointUtils.c */,
 				32CA4F630368D1EE00C91783 /* DIS2_MusicPlayer_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				F8E6E2010FE56A4100C17E31 /* DIS2_Gesture_DetectorProtocol.h */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -379,11 +386,12 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* DIS2_MusicPlayerAppDelegate.mm in Sources */,
 				28D7ACF80DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm in Sources */,
-				F85D7E6E0FE40842003E3154 /* DIS2_MusicPlayerView.m in Sources */,
 				F85D7EDB0FE4323F003E3154 /* AQPlayer.mm in Sources */,
 				F85D7EE40FE432AC003E3154 /* CADebugMacros.cpp in Sources */,
 				F85D7EE50FE432AC003E3154 /* CAStreamBasicDescription.cpp in Sources */,
 				F85D7EE60FE432AC003E3154 /* CAXException.cpp in Sources */,
+				F8E6E1970FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m in Sources */,
+				F8E6E2080FE56B4B00C17E31 /* CGPointUtils.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

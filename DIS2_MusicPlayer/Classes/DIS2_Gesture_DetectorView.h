@@ -11,18 +11,12 @@
     CGPoint firstTouch;
     NSTimeInterval firstTouchTime;
 	NSUInteger numTaps;
+	id delegate;
 }
-@property (nonatomic, retain) IBOutlet UILabel *label;
+//@property (nonatomic, retain) IBOutlet UILabel *label;
 @property (nonatomic, retain) NSMutableArray *points;
-- (void)setGestureDelegate:(id)delegate;
-- (void)eraseText;
-- (void)handleLeftSwipeGesture;
-- (void)handleRightSwipeGesture;
-- (void)handleSingleTapGesture;
-- (void)handleDoubleTapGesture;
-- (void)handleClockwiseCircularGesture;
-- (void)handleCounterclockwiseCircularGesture;
-- (void)handleUnsupportedGesture:(NSString*) message;
-- (void)displayText:(NSString*) text;
+@property (assign) IBOutlet id delegate;
+//- (void)eraseText;
+//- (void)displayText:(NSString*) text;
 - (void)resetGestureDetection;
 @end
