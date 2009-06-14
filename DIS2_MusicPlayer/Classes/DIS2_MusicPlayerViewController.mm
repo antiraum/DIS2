@@ -148,8 +148,6 @@
 		player->StopQueue();
 	}
 	printf("Creating queue...\n");
-	//delete player;
-	//player = new AQPlayer();
 	player->DisposeQueue(true);
 	player->CreateQueueForFile((CFStringRef) [[NSBundle mainBundle] pathForResource:label.text ofType:@"mp3"]);
 	player->SetVolume(volume);

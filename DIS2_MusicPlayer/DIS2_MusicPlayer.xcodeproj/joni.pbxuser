@@ -24,15 +24,15 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {905, 672}}";
 			sepNavSelRange = "{1095, 0}";
-			sepNavVisRange = "{337, 820}";
+			sepNavVisRange = "{498, 666}";
 			sepNavWindowFrame = "{{107, 131}, {750, 558}}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {905, 3122}}";
-			sepNavSelRange = "{3993, 0}";
-			sepNavVisRange = "{3568, 723}";
+			sepNavIntBoundsRect = "{{0, 0}, {905, 3178}}";
+			sepNavSelRange = "{3781, 0}";
+			sepNavVisRange = "{3540, 730}";
 			sepNavWindowFrame = "{{333, 89}, {750, 558}}";
 		};
 	};
@@ -661,6 +661,19 @@
 			F8E6E4A30FE5BF2000C17E31 /* PBXTextBookmark */ = F8E6E4A30FE5BF2000C17E31 /* PBXTextBookmark */;
 			F8E6E4A50FE5BF9300C17E31 /* PBXTextBookmark */ = F8E6E4A50FE5BF9300C17E31 /* PBXTextBookmark */;
 			F8E6E4A70FE5BFD400C17E31 /* PBXTextBookmark */ = F8E6E4A70FE5BFD400C17E31 /* PBXTextBookmark */;
+			F8E6E4A80FE5C16500C17E31 /* PBXTextBookmark */ = F8E6E4A80FE5C16500C17E31 /* PBXTextBookmark */;
+			F8E6E4A90FE5C16500C17E31 /* PBXTextBookmark */ = F8E6E4A90FE5C16500C17E31 /* PBXTextBookmark */;
+			F8E6E4AA0FE5C16500C17E31 /* PBXTextBookmark */ = F8E6E4AA0FE5C16500C17E31 /* PBXTextBookmark */;
+			F8E6E4AB0FE5C16500C17E31 /* PBXTextBookmark */ = F8E6E4AB0FE5C16500C17E31 /* PBXTextBookmark */;
+			F8E6E4AC0FE5C49F00C17E31 /* PBXTextBookmark */ = F8E6E4AC0FE5C49F00C17E31 /* PBXTextBookmark */;
+			F8E6E4AD0FE5C49F00C17E31 /* PBXTextBookmark */ = F8E6E4AD0FE5C49F00C17E31 /* PBXTextBookmark */;
+			F8E6E4AE0FE5C49F00C17E31 /* PBXTextBookmark */ = F8E6E4AE0FE5C49F00C17E31 /* PBXTextBookmark */;
+			F8E6E4AF0FE5C49F00C17E31 /* PBXTextBookmark */ = F8E6E4AF0FE5C49F00C17E31 /* PBXTextBookmark */;
+			F8E6E4B00FE5C49F00C17E31 /* PBXTextBookmark */ = F8E6E4B00FE5C49F00C17E31 /* PBXTextBookmark */;
+			F8E6E4B10FE5C49F00C17E31 /* PBXTextBookmark */ = F8E6E4B10FE5C49F00C17E31 /* PBXTextBookmark */;
+			F8E6E4B20FE5C49F00C17E31 /* PBXTextBookmark */ = F8E6E4B20FE5C49F00C17E31 /* PBXTextBookmark */;
+			F8E6E4B30FE5C49F00C17E31 /* PBXTextBookmark */ = F8E6E4B30FE5C49F00C17E31 /* PBXTextBookmark */;
+			F8E6E4B40FE5C49F00C17E31 /* PBXTextBookmark */ = F8E6E4B40FE5C49F00C17E31 /* PBXTextBookmark */;
 		};
 		sourceControlManager = F85D7D830FE3FD05003E3154 /* Source Control */;
 		userBuildSettings = {
@@ -1851,16 +1864,16 @@
 	};
 	F8E6E1950FE55EC700C17E31 /* DIS2_Gesture_DetectorView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {905, 422}}";
+			sepNavIntBoundsRect = "{{0, 0}, {905, 399}}";
 			sepNavSelRange = "{726, 0}";
 			sepNavVisRange = "{0, 727}";
 		};
 	};
 	F8E6E1960FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {905, 3624}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 3652}}";
 			sepNavSelRange = "{343, 0}";
-			sepNavVisRange = "{2513, 696}";
+			sepNavVisRange = "{7393, 684}";
 		};
 	};
 	F8E6E1990FE562A300C17E31 /* PBXTextBookmark */ = {
@@ -2269,7 +2282,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 84";
 		rLen = 0;
-		rLoc = 5235;
+		rLoc = 5189;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 1578;
@@ -2431,7 +2444,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 84";
 		rLen = 0;
-		rLoc = 5235;
+		rLoc = 5189;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 1578;
@@ -2817,7 +2830,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 84";
 		rLen = 0;
-		rLoc = 5235;
+		rLoc = 5189;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 1578;
@@ -2867,7 +2880,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 84";
 		rLen = 0;
-		rLoc = 5235;
+		rLoc = 5189;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 1578;
@@ -2917,7 +2930,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 84";
 		rLen = 0;
-		rLoc = 5235;
+		rLoc = 5189;
 		rType = 0;
 		vrLen = 825;
 		vrLoc = 1577;
@@ -2937,7 +2950,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 79";
 		rLen = 0;
-		rLoc = 4875;
+		rLoc = 4829;
 		rType = 0;
 		vrLen = 793;
 		vrLoc = 1577;
@@ -3023,7 +3036,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 79";
 		rLen = 0;
-		rLoc = 4875;
+		rLoc = 4829;
 		rType = 0;
 		vrLen = 852;
 		vrLoc = 1580;
@@ -3159,7 +3172,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 88";
 		rLen = 0;
-		rLoc = 4820;
+		rLoc = 4774;
 		rType = 0;
 		vrLen = 534;
 		vrLoc = 1870;
@@ -3259,7 +3272,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 96";
 		rLen = 0;
-		rLoc = 4985;
+		rLoc = 4939;
 		rType = 0;
 		vrLen = 723;
 		vrLoc = 1897;
@@ -3329,7 +3342,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 116";
 		rLen = 0;
-		rLoc = 4217;
+		rLoc = 4171;
 		rType = 0;
 		vrLen = 629;
 		vrLoc = 2313;
@@ -3359,7 +3372,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 133";
 		rLen = 0;
-		rLoc = 5104;
+		rLoc = 5058;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 2538;
@@ -3419,7 +3432,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 123";
 		rLen = 0;
-		rLoc = 4177;
+		rLoc = 4131;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 2452;
@@ -3439,7 +3452,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 132";
 		rLen = 0;
-		rLoc = 4901;
+		rLoc = 4855;
 		rType = 0;
 		vrLen = 682;
 		vrLoc = 2730;
@@ -3469,7 +3482,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 132";
 		rLen = 0;
-		rLoc = 4901;
+		rLoc = 4855;
 		rType = 0;
 		vrLen = 682;
 		vrLoc = 2730;
@@ -3529,7 +3542,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 132";
 		rLen = 0;
-		rLoc = 4901;
+		rLoc = 4855;
 		rType = 0;
 		vrLen = 739;
 		vrLoc = 0;
@@ -3569,7 +3582,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 132";
 		rLen = 0;
-		rLoc = 4901;
+		rLoc = 4855;
 		rType = 0;
 		vrLen = 739;
 		vrLoc = 0;
@@ -3589,7 +3602,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 132";
 		rLen = 0;
-		rLoc = 4901;
+		rLoc = 4855;
 		rType = 0;
 		vrLen = 739;
 		vrLoc = 0;
@@ -3609,7 +3622,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 132";
 		rLen = 0;
-		rLoc = 4901;
+		rLoc = 4855;
 		rType = 0;
 		vrLen = 739;
 		vrLoc = 0;
@@ -3767,7 +3780,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 118";
 		rLen = 0;
-		rLoc = 3938;
+		rLoc = 3892;
 		rType = 0;
 		vrLen = 724;
 		vrLoc = 2420;
@@ -4503,7 +4516,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 142";
 		rLen = 0;
-		rLoc = 3948;
+		rLoc = 3902;
 		rType = 0;
 		vrLen = 787;
 		vrLoc = 2879;
@@ -4513,7 +4526,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 140";
 		rLen = 0;
-		rLoc = 3799;
+		rLoc = 3781;
 		rType = 0;
 		vrLen = 685;
 		vrLoc = 3427;
@@ -4523,7 +4536,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 141";
 		rLen = 0;
-		rLoc = 3799;
+		rLoc = 3781;
 		rType = 0;
 		vrLen = 661;
 		vrLoc = 3272;
@@ -4543,7 +4556,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 141";
 		rLen = 0;
-		rLoc = 3799;
+		rLoc = 3781;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 2708;
@@ -4553,7 +4566,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 141";
 		rLen = 0;
-		rLoc = 3799;
+		rLoc = 3781;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 2708;
@@ -4843,7 +4856,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 143";
 		rLen = 0;
-		rLoc = 3948;
+		rLoc = 3902;
 		rType = 0;
 		vrLen = 673;
 		vrLoc = 3037;
@@ -4863,7 +4876,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 143";
 		rLen = 0;
-		rLoc = 3938;
+		rLoc = 3892;
 		rType = 0;
 		vrLen = 712;
 		vrLoc = 3132;
@@ -5125,7 +5138,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 170";
 		rLen = 0;
-		rLoc = 4695;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 588;
 		vrLoc = 4429;
@@ -5195,7 +5208,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 162";
 		rLen = 0;
-		rLoc = 4148;
+		rLoc = 4102;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 4111;
@@ -5205,7 +5218,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 162";
 		rLen = 0;
-		rLoc = 4148;
+		rLoc = 4102;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 4111;
@@ -5582,7 +5595,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 155";
 		rLen = 0;
-		rLoc = 4036;
+		rLoc = 3990;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 3710;
@@ -5630,7 +5643,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 194";
 		rLen = 0;
-		rLoc = 5177;
+		rLoc = 5131;
 		rType = 0;
 		vrLen = 623;
 		vrLoc = 4336;
@@ -5650,7 +5663,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 194";
 		rLen = 0;
-		rLoc = 5177;
+		rLoc = 5131;
 		rType = 0;
 		vrLen = 735;
 		vrLoc = 4224;
@@ -5660,7 +5673,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 194";
 		rLen = 0;
-		rLoc = 5177;
+		rLoc = 5131;
 		rType = 0;
 		vrLen = 623;
 		vrLoc = 4336;
@@ -5786,7 +5799,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 174";
 		rLen = 8;
-		rLoc = 4400;
+		rLoc = 4354;
 		rType = 0;
 		vrLen = 665;
 		vrLoc = 3750;
@@ -5806,7 +5819,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 190";
 		rLen = 0;
-		rLoc = 5037;
+		rLoc = 4991;
 		rType = 0;
 		vrLen = 546;
 		vrLoc = 4430;
@@ -5826,7 +5839,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 167";
 		rLen = 4;
-		rLoc = 4232;
+		rLoc = 4186;
 		rType = 0;
 		vrLen = 795;
 		vrLoc = 3750;
@@ -5846,7 +5859,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 167";
 		rLen = 0;
-		rLoc = 4541;
+		rLoc = 4495;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 3750;
@@ -5866,7 +5879,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 173";
 		rLen = 9;
-		rLoc = 4370;
+		rLoc = 4324;
 		rType = 0;
 		vrLen = 667;
 		vrLoc = 3750;
@@ -5886,7 +5899,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 174";
 		rLen = 8;
-		rLoc = 4400;
+		rLoc = 4354;
 		rType = 0;
 		vrLen = 665;
 		vrLoc = 3750;
@@ -5922,7 +5935,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 214";
 		rLen = 0;
-		rLoc = 5177;
+		rLoc = 5131;
 		rType = 0;
 		vrLen = 567;
 		vrLoc = 4362;
@@ -5932,7 +5945,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 176";
 		rLen = 0;
-		rLoc = 4389;
+		rLoc = 4343;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 4175;
@@ -5942,9 +5955,139 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
 		name = "DIS2_MusicPlayerViewController.mm: 155";
 		rLen = 0;
-		rLoc = 3993;
+		rLoc = 3947;
 		rType = 0;
 		vrLen = 723;
 		vrLoc = 3568;
+	};
+	F8E6E4A80FE5C16500C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
+		name = "DIS2_MusicPlayerViewController.mm: 150";
+		rLen = 0;
+		rLoc = 3781;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 4752;
+	};
+	F8E6E4A90FE5C16500C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* DIS2_MusicPlayerViewController.h */;
+		name = "DIS2_MusicPlayerViewController.h: 42";
+		rLen = 0;
+		rLoc = 1095;
+		rType = 0;
+		vrLen = 764;
+		vrLoc = 393;
+	};
+	F8E6E4AA0FE5C16500C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
+		name = "DIS2_MusicPlayerViewController.mm: 150";
+		rLen = 0;
+		rLoc = 3781;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 4752;
+	};
+	F8E6E4AB0FE5C16500C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* DIS2_MusicPlayerViewController.h */;
+		name = "DIS2_MusicPlayerViewController.h: 42";
+		rLen = 0;
+		rLoc = 1095;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 498;
+	};
+	F8E6E4AC0FE5C49F00C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* DIS2_MusicPlayerViewController.h */;
+		name = "DIS2_MusicPlayerViewController.h: 42";
+		rLen = 0;
+		rLoc = 1095;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 498;
+	};
+	F8E6E4AD0FE5C49F00C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8E6E1950FE55EC700C17E31 /* DIS2_Gesture_DetectorView.h */;
+		name = "DIS2_Gesture_DetectorView.h: 22";
+		rLen = 0;
+		rLoc = 726;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 0;
+	};
+	F8E6E4AE0FE5C49F00C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8E6E1960FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m */;
+		name = "DIS2_Gesture_DetectorView.m: 16";
+		rLen = 0;
+		rLoc = 343;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 7370;
+	};
+	F8E6E4AF0FE5C49F00C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
+		name = "DIS2_MusicPlayerViewController.mm: 150";
+		rLen = 0;
+		rLoc = 3781;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 4752;
+	};
+	F8E6E4B00FE5C49F00C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* DIS2_MusicPlayerViewController.h */;
+		name = "DIS2_MusicPlayerViewController.h: 42";
+		rLen = 0;
+		rLoc = 1095;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 498;
+	};
+	F8E6E4B10FE5C49F00C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
+		name = "DIS2_MusicPlayerViewController.mm: 150";
+		rLen = 0;
+		rLoc = 3781;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 4752;
+	};
+	F8E6E4B20FE5C49F00C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8E6E1950FE55EC700C17E31 /* DIS2_Gesture_DetectorView.h */;
+		name = "DIS2_Gesture_DetectorView.h: 22";
+		rLen = 0;
+		rLoc = 726;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 0;
+	};
+	F8E6E4B30FE5C49F00C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8E6E1960FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m */;
+		name = "DIS2_Gesture_DetectorView.m: 16";
+		rLen = 0;
+		rLoc = 343;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 7370;
+	};
+	F8E6E4B40FE5C49F00C17E31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* DIS2_MusicPlayerViewController.mm */;
+		name = "DIS2_MusicPlayerViewController.mm: 150";
+		rLen = 0;
+		rLoc = 3781;
+		rType = 0;
+		vrLen = 730;
+		vrLoc = 3540;
 	};
 }
