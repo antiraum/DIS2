@@ -21,47 +21,16 @@
 		F85D7EE40FE432AC003E3154 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F85D7EDD0FE432AC003E3154 /* CADebugMacros.cpp */; };
 		F85D7EE50FE432AC003E3154 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F85D7EE00FE432AC003E3154 /* CAStreamBasicDescription.cpp */; };
 		F85D7EE60FE432AC003E3154 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F85D7EE20FE432AC003E3154 /* CAXException.cpp */; };
-		F85D801E0FE46636003E3154 /* 01 Boulderdash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FF50FE46624003E3154 /* 01 Boulderdash.mp3 */; };
-		F85D801F0FE46636003E3154 /* 02 Bubble Bobble Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FF60FE46624003E3154 /* 02 Bubble Bobble Intro.mp3 */; };
-		F85D80200FE46636003E3154 /* 03 Bubble Bobble Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FF70FE46624003E3154 /* 03 Bubble Bobble Ingame.mp3 */; };
-		F85D80210FE46636003E3154 /* 04 Bubble Bobble Extend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FF80FE46624003E3154 /* 04 Bubble Bobble Extend.mp3 */; };
-		F85D80220FE46636003E3154 /* 05 Bubble Bobble Highscore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FF90FE46624003E3154 /* 05 Bubble Bobble Highscore.mp3 */; };
-		F85D80230FE46636003E3154 /* 06 Defender of the Crown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFA0FE46624003E3154 /* 06 Defender of the Crown.mp3 */; };
-		F85D80240FE46636003E3154 /* 07 Duck Tales Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFB0FE46624003E3154 /* 07 Duck Tales Intro.mp3 */; };
-		F85D80250FE46636003E3154 /* 08 Dynablaster Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFC0FE46624003E3154 /* 08 Dynablaster Intro.mp3 */; };
-		F85D80260FE46636003E3154 /* 09 Dynablaster Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFD0FE46624003E3154 /* 09 Dynablaster Menu.mp3 */; };
-		F85D80270FE46636003E3154 /* 10 Dynablaster Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFE0FE46625003E3154 /* 10 Dynablaster Menu.mp3 */; };
-		F85D80280FE46636003E3154 /* 11 Dynablaster Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFF0FE46625003E3154 /* 11 Dynablaster Ingame.mp3 */; };
-		F85D80290FE46636003E3154 /* 12 Giana Sisters Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80000FE46625003E3154 /* 12 Giana Sisters Intro.mp3 */; };
-		F85D802A0FE46636003E3154 /* 13 Giana Sisters Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80010FE46625003E3154 /* 13 Giana Sisters Menu.mp3 */; };
-		F85D802B0FE46636003E3154 /* 14 Giana Sisters Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80020FE46625003E3154 /* 14 Giana Sisters Ingame.mp3 */; };
-		F85D802C0FE46636003E3154 /* 15 Giana Sisters Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80030FE46625003E3154 /* 15 Giana Sisters Ingame.mp3 */; };
-		F85D802D0FE46636003E3154 /* 16 Hole in One.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80040FE46625003E3154 /* 16 Hole in One.mp3 */; };
-		F85D802E0FE46636003E3154 /* 17 Hybris Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80050FE46626003E3154 /* 17 Hybris Intro.mp3 */; };
-		F85D802F0FE46636003E3154 /* 18 Hybris Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80060FE46627003E3154 /* 18 Hybris Ingame.mp3 */; };
-		F85D80300FE46636003E3154 /* 19 Indiana Jones III.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80070FE46628003E3154 /* 19 Indiana Jones III.mp3 */; };
-		F85D80310FE46636003E3154 /* 20 Lotus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80080FE4662A003E3154 /* 20 Lotus.mp3 */; };
-		F85D80320FE46636003E3154 /* 21 Lotus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80090FE4662A003E3154 /* 21 Lotus.mp3 */; };
-		F85D80330FE46636003E3154 /* 22 Lotus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800A0FE4662B003E3154 /* 22 Lotus.mp3 */; };
-		F85D80340FE46636003E3154 /* 23 Lotus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800B0FE4662B003E3154 /* 23 Lotus.mp3 */; };
-		F85D80350FE46636003E3154 /* 24 Lotus Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800C0FE4662B003E3154 /* 24 Lotus Menu.mp3 */; };
-		F85D80360FE46636003E3154 /* 25 Lotus II Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800D0FE4662C003E3154 /* 25 Lotus II Menu.mp3 */; };
-		F85D80370FE46636003E3154 /* 26 New Zealand Story Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800E0FE4662D003E3154 /* 26 New Zealand Story Ingame.mp3 */; };
-		F85D80380FE46636003E3154 /* 27 Oil Imperium.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800F0FE4662E003E3154 /* 27 Oil Imperium.mp3 */; };
-		F85D80390FE46636003E3154 /* 28 Operation Wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80100FE4662E003E3154 /* 28 Operation Wolf.mp3 */; };
-		F85D803A0FE46636003E3154 /* 29 Prince of Persia Crackscreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80110FE4662F003E3154 /* 29 Prince of Persia Crackscreen.mp3 */; };
-		F85D803B0FE46636003E3154 /* 30 Rick Dangerous Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80120FE46630003E3154 /* 30 Rick Dangerous Intro.mp3 */; };
-		F85D803C0FE46636003E3154 /* 31 Rick Dangerous Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80130FE46630003E3154 /* 31 Rick Dangerous Menu.mp3 */; };
-		F85D803D0FE46636003E3154 /* 32 Rick Dangerous Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80140FE46630003E3154 /* 32 Rick Dangerous Ingame.mp3 */; };
-		F85D803E0FE46636003E3154 /* 33 RFV Honda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80150FE46631003E3154 /* 33 RFV Honda.mp3 */; };
-		F85D803F0FE46636003E3154 /* 34 Sensible Soccer Start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80160FE46631003E3154 /* 34 Sensible Soccer Start.mp3 */; };
-		F85D80400FE46636003E3154 /* 35 Super Hang On.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80170FE46631003E3154 /* 35 Super Hang On.mp3 */; };
-		F85D80410FE46636003E3154 /* 36 The Humans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80180FE46632003E3154 /* 36 The Humans.mp3 */; };
-		F85D80420FE46636003E3154 /* 37 Tie Break.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80190FE46633003E3154 /* 37 Tie Break.mp3 */; };
-		F85D80430FE46636003E3154 /* 38 Time Machine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801A0FE46634003E3154 /* 38 Time Machine.mp3 */; };
-		F85D80440FE46636003E3154 /* 39 TV Sports Basketball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801B0FE46635003E3154 /* 39 TV Sports Basketball.mp3 */; };
-		F85D80450FE46636003E3154 /* 40 Werner das Spiel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801C0FE46636003E3154 /* 40 Werner das Spiel.mp3 */; };
-		F85D80460FE46636003E3154 /* 41 Zak McKraken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801D0FE46636003E3154 /* 41 Zak McKraken.mp3 */; };
+		F85D80230FE46636003E3154 /* 01 Defender of the Crown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFA0FE46624003E3154 /* 01 Defender of the Crown.mp3 */; };
+		F85D80240FE46636003E3154 /* 02 Duck Tales Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFB0FE46624003E3154 /* 02 Duck Tales Intro.mp3 */; };
+		F85D80250FE46636003E3154 /* 03 Dynablaster Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D7FFC0FE46624003E3154 /* 03 Dynablaster Intro.mp3 */; };
+		F85D802D0FE46636003E3154 /* 04 Hole in One.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80040FE46625003E3154 /* 04 Hole in One.mp3 */; };
+		F85D80300FE46636003E3154 /* 05 Indiana Jones III.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80070FE46628003E3154 /* 05 Indiana Jones III.mp3 */; };
+		F85D80370FE46636003E3154 /* 06 New Zealand Story Ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D800E0FE4662D003E3154 /* 06 New Zealand Story Ingame.mp3 */; };
+		F85D80390FE46636003E3154 /* 07 Operation Wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80100FE4662E003E3154 /* 07 Operation Wolf.mp3 */; };
+		F85D80400FE46636003E3154 /* 08 Super Hang On.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D80170FE46631003E3154 /* 08 Super Hang On.mp3 */; };
+		F85D80440FE46636003E3154 /* 09 TV Sports Basketball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801B0FE46635003E3154 /* 09 TV Sports Basketball.mp3 */; };
+		F85D80460FE46636003E3154 /* 10 Zak McKraken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F85D801D0FE46636003E3154 /* 10 Zak McKraken.mp3 */; };
 		F8E6E1970FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6E1960FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m */; };
 		F8E6E2080FE56B4B00C17E31 /* CGPointUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = F8E6E2070FE56B4B00C17E31 /* CGPointUtils.c */; };
 		F8E6E4340FE59BF900C17E31 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E6E42F0FE59BF900C17E31 /* next.png */; };
@@ -96,47 +65,16 @@
 		F85D7EE10FE432AC003E3154 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
 		F85D7EE20FE432AC003E3154 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
 		F85D7EE30FE432AC003E3154 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
-		F85D7FF50FE46624003E3154 /* 01 Boulderdash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Boulderdash.mp3"; sourceTree = "<group>"; };
-		F85D7FF60FE46624003E3154 /* 02 Bubble Bobble Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Bubble Bobble Intro.mp3"; sourceTree = "<group>"; };
-		F85D7FF70FE46624003E3154 /* 03 Bubble Bobble Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Bubble Bobble Ingame.mp3"; sourceTree = "<group>"; };
-		F85D7FF80FE46624003E3154 /* 04 Bubble Bobble Extend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Bubble Bobble Extend.mp3"; sourceTree = "<group>"; };
-		F85D7FF90FE46624003E3154 /* 05 Bubble Bobble Highscore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 Bubble Bobble Highscore.mp3"; sourceTree = "<group>"; };
-		F85D7FFA0FE46624003E3154 /* 06 Defender of the Crown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 Defender of the Crown.mp3"; sourceTree = "<group>"; };
-		F85D7FFB0FE46624003E3154 /* 07 Duck Tales Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 Duck Tales Intro.mp3"; sourceTree = "<group>"; };
-		F85D7FFC0FE46624003E3154 /* 08 Dynablaster Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 Dynablaster Intro.mp3"; sourceTree = "<group>"; };
-		F85D7FFD0FE46624003E3154 /* 09 Dynablaster Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 Dynablaster Menu.mp3"; sourceTree = "<group>"; };
-		F85D7FFE0FE46625003E3154 /* 10 Dynablaster Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 Dynablaster Menu.mp3"; sourceTree = "<group>"; };
-		F85D7FFF0FE46625003E3154 /* 11 Dynablaster Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11 Dynablaster Ingame.mp3"; sourceTree = "<group>"; };
-		F85D80000FE46625003E3154 /* 12 Giana Sisters Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12 Giana Sisters Intro.mp3"; sourceTree = "<group>"; };
-		F85D80010FE46625003E3154 /* 13 Giana Sisters Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "13 Giana Sisters Menu.mp3"; sourceTree = "<group>"; };
-		F85D80020FE46625003E3154 /* 14 Giana Sisters Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14 Giana Sisters Ingame.mp3"; sourceTree = "<group>"; };
-		F85D80030FE46625003E3154 /* 15 Giana Sisters Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "15 Giana Sisters Ingame.mp3"; sourceTree = "<group>"; };
-		F85D80040FE46625003E3154 /* 16 Hole in One.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "16 Hole in One.mp3"; sourceTree = "<group>"; };
-		F85D80050FE46626003E3154 /* 17 Hybris Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "17 Hybris Intro.mp3"; sourceTree = "<group>"; };
-		F85D80060FE46627003E3154 /* 18 Hybris Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "18 Hybris Ingame.mp3"; sourceTree = "<group>"; };
-		F85D80070FE46628003E3154 /* 19 Indiana Jones III.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "19 Indiana Jones III.mp3"; sourceTree = "<group>"; };
-		F85D80080FE4662A003E3154 /* 20 Lotus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20 Lotus.mp3"; sourceTree = "<group>"; };
-		F85D80090FE4662A003E3154 /* 21 Lotus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "21 Lotus.mp3"; sourceTree = "<group>"; };
-		F85D800A0FE4662B003E3154 /* 22 Lotus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "22 Lotus.mp3"; sourceTree = "<group>"; };
-		F85D800B0FE4662B003E3154 /* 23 Lotus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "23 Lotus.mp3"; sourceTree = "<group>"; };
-		F85D800C0FE4662B003E3154 /* 24 Lotus Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "24 Lotus Menu.mp3"; sourceTree = "<group>"; };
-		F85D800D0FE4662C003E3154 /* 25 Lotus II Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "25 Lotus II Menu.mp3"; sourceTree = "<group>"; };
-		F85D800E0FE4662D003E3154 /* 26 New Zealand Story Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "26 New Zealand Story Ingame.mp3"; sourceTree = "<group>"; };
-		F85D800F0FE4662E003E3154 /* 27 Oil Imperium.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "27 Oil Imperium.mp3"; sourceTree = "<group>"; };
-		F85D80100FE4662E003E3154 /* 28 Operation Wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "28 Operation Wolf.mp3"; sourceTree = "<group>"; };
-		F85D80110FE4662F003E3154 /* 29 Prince of Persia Crackscreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "29 Prince of Persia Crackscreen.mp3"; sourceTree = "<group>"; };
-		F85D80120FE46630003E3154 /* 30 Rick Dangerous Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "30 Rick Dangerous Intro.mp3"; sourceTree = "<group>"; };
-		F85D80130FE46630003E3154 /* 31 Rick Dangerous Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "31 Rick Dangerous Menu.mp3"; sourceTree = "<group>"; };
-		F85D80140FE46630003E3154 /* 32 Rick Dangerous Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "32 Rick Dangerous Ingame.mp3"; sourceTree = "<group>"; };
-		F85D80150FE46631003E3154 /* 33 RFV Honda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "33 RFV Honda.mp3"; sourceTree = "<group>"; };
-		F85D80160FE46631003E3154 /* 34 Sensible Soccer Start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "34 Sensible Soccer Start.mp3"; sourceTree = "<group>"; };
-		F85D80170FE46631003E3154 /* 35 Super Hang On.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "35 Super Hang On.mp3"; sourceTree = "<group>"; };
-		F85D80180FE46632003E3154 /* 36 The Humans.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "36 The Humans.mp3"; sourceTree = "<group>"; };
-		F85D80190FE46633003E3154 /* 37 Tie Break.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "37 Tie Break.mp3"; sourceTree = "<group>"; };
-		F85D801A0FE46634003E3154 /* 38 Time Machine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "38 Time Machine.mp3"; sourceTree = "<group>"; };
-		F85D801B0FE46635003E3154 /* 39 TV Sports Basketball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "39 TV Sports Basketball.mp3"; sourceTree = "<group>"; };
-		F85D801C0FE46636003E3154 /* 40 Werner das Spiel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "40 Werner das Spiel.mp3"; sourceTree = "<group>"; };
-		F85D801D0FE46636003E3154 /* 41 Zak McKraken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "41 Zak McKraken.mp3"; sourceTree = "<group>"; };
+		F85D7FFA0FE46624003E3154 /* 01 Defender of the Crown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Defender of the Crown.mp3"; sourceTree = "<group>"; };
+		F85D7FFB0FE46624003E3154 /* 02 Duck Tales Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Duck Tales Intro.mp3"; sourceTree = "<group>"; };
+		F85D7FFC0FE46624003E3154 /* 03 Dynablaster Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Dynablaster Intro.mp3"; sourceTree = "<group>"; };
+		F85D80040FE46625003E3154 /* 04 Hole in One.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Hole in One.mp3"; sourceTree = "<group>"; };
+		F85D80070FE46628003E3154 /* 05 Indiana Jones III.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 Indiana Jones III.mp3"; sourceTree = "<group>"; };
+		F85D800E0FE4662D003E3154 /* 06 New Zealand Story Ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 New Zealand Story Ingame.mp3"; sourceTree = "<group>"; };
+		F85D80100FE4662E003E3154 /* 07 Operation Wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 Operation Wolf.mp3"; sourceTree = "<group>"; };
+		F85D80170FE46631003E3154 /* 08 Super Hang On.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 Super Hang On.mp3"; sourceTree = "<group>"; };
+		F85D801B0FE46635003E3154 /* 09 TV Sports Basketball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 TV Sports Basketball.mp3"; sourceTree = "<group>"; };
+		F85D801D0FE46636003E3154 /* 10 Zak McKraken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 Zak McKraken.mp3"; sourceTree = "<group>"; };
 		F8E6E1950FE55EC700C17E31 /* DIS2_Gesture_DetectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIS2_Gesture_DetectorView.h; sourceTree = "<group>"; };
 		F8E6E1960FE55EC700C17E31 /* DIS2_Gesture_DetectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIS2_Gesture_DetectorView.m; sourceTree = "<group>"; };
 		F8E6E2010FE56A4100C17E31 /* DIS2_Gesture_DetectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIS2_Gesture_DetectorProtocol.h; sourceTree = "<group>"; };
@@ -254,47 +192,16 @@
 		F85D7FF40FE46624003E3154 /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				F85D7FF50FE46624003E3154 /* 01 Boulderdash.mp3 */,
-				F85D7FF60FE46624003E3154 /* 02 Bubble Bobble Intro.mp3 */,
-				F85D7FF70FE46624003E3154 /* 03 Bubble Bobble Ingame.mp3 */,
-				F85D7FF80FE46624003E3154 /* 04 Bubble Bobble Extend.mp3 */,
-				F85D7FF90FE46624003E3154 /* 05 Bubble Bobble Highscore.mp3 */,
-				F85D7FFA0FE46624003E3154 /* 06 Defender of the Crown.mp3 */,
-				F85D7FFB0FE46624003E3154 /* 07 Duck Tales Intro.mp3 */,
-				F85D7FFC0FE46624003E3154 /* 08 Dynablaster Intro.mp3 */,
-				F85D7FFD0FE46624003E3154 /* 09 Dynablaster Menu.mp3 */,
-				F85D7FFE0FE46625003E3154 /* 10 Dynablaster Menu.mp3 */,
-				F85D7FFF0FE46625003E3154 /* 11 Dynablaster Ingame.mp3 */,
-				F85D80000FE46625003E3154 /* 12 Giana Sisters Intro.mp3 */,
-				F85D80010FE46625003E3154 /* 13 Giana Sisters Menu.mp3 */,
-				F85D80020FE46625003E3154 /* 14 Giana Sisters Ingame.mp3 */,
-				F85D80030FE46625003E3154 /* 15 Giana Sisters Ingame.mp3 */,
-				F85D80040FE46625003E3154 /* 16 Hole in One.mp3 */,
-				F85D80050FE46626003E3154 /* 17 Hybris Intro.mp3 */,
-				F85D80060FE46627003E3154 /* 18 Hybris Ingame.mp3 */,
-				F85D80070FE46628003E3154 /* 19 Indiana Jones III.mp3 */,
-				F85D80080FE4662A003E3154 /* 20 Lotus.mp3 */,
-				F85D80090FE4662A003E3154 /* 21 Lotus.mp3 */,
-				F85D800A0FE4662B003E3154 /* 22 Lotus.mp3 */,
-				F85D800B0FE4662B003E3154 /* 23 Lotus.mp3 */,
-				F85D800C0FE4662B003E3154 /* 24 Lotus Menu.mp3 */,
-				F85D800D0FE4662C003E3154 /* 25 Lotus II Menu.mp3 */,
-				F85D800E0FE4662D003E3154 /* 26 New Zealand Story Ingame.mp3 */,
-				F85D800F0FE4662E003E3154 /* 27 Oil Imperium.mp3 */,
-				F85D80100FE4662E003E3154 /* 28 Operation Wolf.mp3 */,
-				F85D80110FE4662F003E3154 /* 29 Prince of Persia Crackscreen.mp3 */,
-				F85D80120FE46630003E3154 /* 30 Rick Dangerous Intro.mp3 */,
-				F85D80130FE46630003E3154 /* 31 Rick Dangerous Menu.mp3 */,
-				F85D80140FE46630003E3154 /* 32 Rick Dangerous Ingame.mp3 */,
-				F85D80150FE46631003E3154 /* 33 RFV Honda.mp3 */,
-				F85D80160FE46631003E3154 /* 34 Sensible Soccer Start.mp3 */,
-				F85D80170FE46631003E3154 /* 35 Super Hang On.mp3 */,
-				F85D80180FE46632003E3154 /* 36 The Humans.mp3 */,
-				F85D80190FE46633003E3154 /* 37 Tie Break.mp3 */,
-				F85D801A0FE46634003E3154 /* 38 Time Machine.mp3 */,
-				F85D801B0FE46635003E3154 /* 39 TV Sports Basketball.mp3 */,
-				F85D801C0FE46636003E3154 /* 40 Werner das Spiel.mp3 */,
-				F85D801D0FE46636003E3154 /* 41 Zak McKraken.mp3 */,
+				F85D7FFA0FE46624003E3154 /* 01 Defender of the Crown.mp3 */,
+				F85D7FFB0FE46624003E3154 /* 02 Duck Tales Intro.mp3 */,
+				F85D7FFC0FE46624003E3154 /* 03 Dynablaster Intro.mp3 */,
+				F85D80040FE46625003E3154 /* 04 Hole in One.mp3 */,
+				F85D80070FE46628003E3154 /* 05 Indiana Jones III.mp3 */,
+				F85D800E0FE4662D003E3154 /* 06 New Zealand Story Ingame.mp3 */,
+				F85D80100FE4662E003E3154 /* 07 Operation Wolf.mp3 */,
+				F85D80170FE46631003E3154 /* 08 Super Hang On.mp3 */,
+				F85D801B0FE46635003E3154 /* 09 TV Sports Basketball.mp3 */,
+				F85D801D0FE46636003E3154 /* 10 Zak McKraken.mp3 */,
 			);
 			path = audio;
 			sourceTree = "<group>";
@@ -355,47 +262,16 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* DIS2_MusicPlayerViewController.xib in Resources */,
-				F85D801E0FE46636003E3154 /* 01 Boulderdash.mp3 in Resources */,
-				F85D801F0FE46636003E3154 /* 02 Bubble Bobble Intro.mp3 in Resources */,
-				F85D80200FE46636003E3154 /* 03 Bubble Bobble Ingame.mp3 in Resources */,
-				F85D80210FE46636003E3154 /* 04 Bubble Bobble Extend.mp3 in Resources */,
-				F85D80220FE46636003E3154 /* 05 Bubble Bobble Highscore.mp3 in Resources */,
-				F85D80230FE46636003E3154 /* 06 Defender of the Crown.mp3 in Resources */,
-				F85D80240FE46636003E3154 /* 07 Duck Tales Intro.mp3 in Resources */,
-				F85D80250FE46636003E3154 /* 08 Dynablaster Intro.mp3 in Resources */,
-				F85D80260FE46636003E3154 /* 09 Dynablaster Menu.mp3 in Resources */,
-				F85D80270FE46636003E3154 /* 10 Dynablaster Menu.mp3 in Resources */,
-				F85D80280FE46636003E3154 /* 11 Dynablaster Ingame.mp3 in Resources */,
-				F85D80290FE46636003E3154 /* 12 Giana Sisters Intro.mp3 in Resources */,
-				F85D802A0FE46636003E3154 /* 13 Giana Sisters Menu.mp3 in Resources */,
-				F85D802B0FE46636003E3154 /* 14 Giana Sisters Ingame.mp3 in Resources */,
-				F85D802C0FE46636003E3154 /* 15 Giana Sisters Ingame.mp3 in Resources */,
-				F85D802D0FE46636003E3154 /* 16 Hole in One.mp3 in Resources */,
-				F85D802E0FE46636003E3154 /* 17 Hybris Intro.mp3 in Resources */,
-				F85D802F0FE46636003E3154 /* 18 Hybris Ingame.mp3 in Resources */,
-				F85D80300FE46636003E3154 /* 19 Indiana Jones III.mp3 in Resources */,
-				F85D80310FE46636003E3154 /* 20 Lotus.mp3 in Resources */,
-				F85D80320FE46636003E3154 /* 21 Lotus.mp3 in Resources */,
-				F85D80330FE46636003E3154 /* 22 Lotus.mp3 in Resources */,
-				F85D80340FE46636003E3154 /* 23 Lotus.mp3 in Resources */,
-				F85D80350FE46636003E3154 /* 24 Lotus Menu.mp3 in Resources */,
-				F85D80360FE46636003E3154 /* 25 Lotus II Menu.mp3 in Resources */,
-				F85D80370FE46636003E3154 /* 26 New Zealand Story Ingame.mp3 in Resources */,
-				F85D80380FE46636003E3154 /* 27 Oil Imperium.mp3 in Resources */,
-				F85D80390FE46636003E3154 /* 28 Operation Wolf.mp3 in Resources */,
-				F85D803A0FE46636003E3154 /* 29 Prince of Persia Crackscreen.mp3 in Resources */,
-				F85D803B0FE46636003E3154 /* 30 Rick Dangerous Intro.mp3 in Resources */,
-				F85D803C0FE46636003E3154 /* 31 Rick Dangerous Menu.mp3 in Resources */,
-				F85D803D0FE46636003E3154 /* 32 Rick Dangerous Ingame.mp3 in Resources */,
-				F85D803E0FE46636003E3154 /* 33 RFV Honda.mp3 in Resources */,
-				F85D803F0FE46636003E3154 /* 34 Sensible Soccer Start.mp3 in Resources */,
-				F85D80400FE46636003E3154 /* 35 Super Hang On.mp3 in Resources */,
-				F85D80410FE46636003E3154 /* 36 The Humans.mp3 in Resources */,
-				F85D80420FE46636003E3154 /* 37 Tie Break.mp3 in Resources */,
-				F85D80430FE46636003E3154 /* 38 Time Machine.mp3 in Resources */,
-				F85D80440FE46636003E3154 /* 39 TV Sports Basketball.mp3 in Resources */,
-				F85D80450FE46636003E3154 /* 40 Werner das Spiel.mp3 in Resources */,
-				F85D80460FE46636003E3154 /* 41 Zak McKraken.mp3 in Resources */,
+				F85D80230FE46636003E3154 /* 01 Defender of the Crown.mp3 in Resources */,
+				F85D80240FE46636003E3154 /* 02 Duck Tales Intro.mp3 in Resources */,
+				F85D80250FE46636003E3154 /* 03 Dynablaster Intro.mp3 in Resources */,
+				F85D802D0FE46636003E3154 /* 04 Hole in One.mp3 in Resources */,
+				F85D80300FE46636003E3154 /* 05 Indiana Jones III.mp3 in Resources */,
+				F85D80370FE46636003E3154 /* 06 New Zealand Story Ingame.mp3 in Resources */,
+				F85D80390FE46636003E3154 /* 07 Operation Wolf.mp3 in Resources */,
+				F85D80400FE46636003E3154 /* 08 Super Hang On.mp3 in Resources */,
+				F85D80440FE46636003E3154 /* 09 TV Sports Basketball.mp3 in Resources */,
+				F85D80460FE46636003E3154 /* 10 Zak McKraken.mp3 in Resources */,
 				F8E6E4340FE59BF900C17E31 /* next.png in Resources */,
 				F8E6E4350FE59BF900C17E31 /* pause.png in Resources */,
 				F8E6E4360FE59BF900C17E31 /* play.png in Resources */,
